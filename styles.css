@@ -750,6 +750,33 @@ h2 {
   gap: 16px;
 }
 
+.access-panel {
+  max-width: 760px;
+}
+
+.admin-identity {
+  display: grid;
+  width: fit-content;
+  max-width: 100%;
+  gap: 4px;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--sage);
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--sage) 10%, var(--paper));
+  margin-top: 18px;
+  padding: 14px 16px;
+}
+
+.admin-identity span,
+.admin-identity small {
+  color: var(--muted);
+}
+
+.admin-identity strong,
+.admin-identity small {
+  overflow-wrap: anywhere;
+}
+
 .admin-topbar {
   display: flex;
   width: min(1240px, 100%);

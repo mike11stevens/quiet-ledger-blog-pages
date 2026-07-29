@@ -100,6 +100,9 @@ const defaults = {
   googleClientId: "",
   microsoftClientId: "",
   microsoftTenant: "common",
+  adminName: "Michael Stevens",
+  adminGoogleEmail: "michaelsmithstevens@gmail.com",
+  adminGitHubUser: "mike11stevens",
 };
 
 const settingsKey = "quiet-ledger-site-settings";
@@ -115,10 +118,10 @@ function getSettings() {
 
 function getProfile() {
   return {
-    displayName: "Mara Editor",
-    email: "mara@example.com",
-    role: "Editor",
-    bio: "Keeps the publishing queue tidy and the archive easy to browse.",
+    displayName: "Michael Stevens",
+    email: "michaelsmithstevens@gmail.com",
+    role: "Owner",
+    bio: "Owner and admin for this publishing workspace.",
     profileTheme: "minimal",
     avatarStyle: "round",
     x: "",
@@ -180,9 +183,11 @@ function signIn(provider = "Browser profile", identity = {}) {
   const profile = getProfile();
   const displayName = identity.displayName || profile.displayName;
   const email = identity.email || profile.email;
+  const githubLogin = identity.githubLogin || "";
+  const isAdmin = isAdminIdentity({ email, githubLogin });
   localStorage.setItem(
     sessionKey,
-    JSON.stringify({ displayName, email, provider }),
+    JSON.stringify({ displayName, email, provider, githubLogin, isAdmin }),
   );
   if (identity.displayName || identity.email) saveProfile({ displayName, email });
   render("#admin");
@@ -337,8 +342,8 @@ function renderSignIn(settings) {
             )
             .join("")}
           <button class="provider-button provider-browser" data-provider-login="browser" type="button">
-            <strong>Browser profile</strong>
-            <span>Use the local profile saved in this browser.</span>
+            <strong>Browser admin profile</strong>
+            <span>Use ${escapeHtml(settings.adminName)} on this browser.</span>
           </button>
         </div>
         <a class="secondary-action" href="#admin-settings" data-route="#admin-settings">Open sign-in settings</a>
@@ -349,6 +354,22 @@ function renderSignIn(settings) {
 function renderAdmin(settings) {
   const profile = getProfile();
   const session = getSession();
+  if (!session.isAdmin) {
+    return `
+      <main class="admin-page">
+        ${nav(settings)}
+        <section class="site-shell admin-copy access-panel">
+          <p class="eyebrow">Admin</p>
+          <h1>Admin access</h1>
+          <p>The admin workspace is associated with ${escapeHtml(settings.adminName)} through GitHub @${escapeHtml(settings.adminGitHubUser)} and Google ${escapeHtml(settings.adminGoogleEmail)}.</p>
+          ${session.email ? `<div class="auth-notice">Signed in as ${escapeHtml(session.displayName)} with ${escapeHtml(session.provider || "unknown provider")}, but this session is not the configured admin.</div>` : ""}
+          <div class="hero-actions">
+            <a class="primary-action" href="#signin" data-route="#signin">Sign in as admin</a>
+            <a class="secondary-action" href="#home" data-route="#home">Back to blog</a>
+          </div>
+        </section>
+      </main>`;
+  }
   return `
     <main class="admin-page">
       ${nav(settings)}
@@ -364,9 +385,10 @@ function renderAdmin(settings) {
         </aside>
         <div class="admin-main">
           <section class="admin-copy">
-            <p class="eyebrow">${session.email ? "Signed in" : "Guest mode"}</p>
+            <p class="eyebrow">Signed in as admin</p>
             <h2>Manage the blog without clutter</h2>
-            <p>${session.email ? `You are signed in as ${escapeHtml(session.displayName)}.` : "Sign in to personalize profile settings in this browser."}</p>
+            <p>You are signed in as ${escapeHtml(session.displayName)} with ${escapeHtml(session.provider || "browser profile")}.</p>
+            <div class="admin-identity"><span>Admin</span><strong>${escapeHtml(settings.adminName)}</strong><small>GitHub @${escapeHtml(settings.adminGitHubUser)} / Google ${escapeHtml(settings.adminGoogleEmail)}</small></div>
           </section>
           <section class="metric-grid">
             <div class="metric-card"><span>Drafts</span><strong>3</strong></div>
@@ -498,6 +520,9 @@ function appearancePanel(settings) {
       <div class="auth-settings">
         <div><p class="eyebrow">Integrations</p><h2>Sign-in providers</h2></div>
         <div class="settings-form">
+          <label>Admin name<input data-setting="adminName" value="${escapeAttr(settings.adminName)}" /></label>
+          <label>Admin Google email<input data-setting="adminGoogleEmail" type="email" value="${escapeAttr(settings.adminGoogleEmail)}" /></label>
+          <label>Admin GitHub user<input data-setting="adminGitHubUser" value="${escapeAttr(settings.adminGitHubUser)}" /></label>
           <label class="wide-field">GitHub auth endpoint<input data-setting="githubAuthUrl" type="url" placeholder="https://your-auth.example.com/github/start" value="${escapeAttr(settings.githubAuthUrl)}" /></label>
           <label class="wide-field">Google client ID<input data-setting="googleClientId" placeholder="Google OAuth web client ID" value="${escapeAttr(settings.googleClientId)}" /></label>
           <label>Microsoft client ID<input data-setting="microsoftClientId" placeholder="Application client ID" value="${escapeAttr(settings.microsoftClientId)}" /></label>
@@ -572,7 +597,11 @@ function bindEvents() {
 function startProviderLogin(provider) {
   const settings = getSettings();
   if (provider === "browser") {
-    signIn("Browser profile");
+    signIn("Browser profile", {
+      displayName: settings.adminName,
+      email: settings.adminGoogleEmail,
+      githubLogin: settings.adminGitHubUser,
+    });
     return;
   }
   if (provider === "github") {
@@ -682,11 +711,21 @@ function handleAuthReturn() {
     signIn("GitHub", {
       displayName: query.get("name") || query.get("login") || "GitHub user",
       email: query.get("email") || "",
+      githubLogin: query.get("login") || query.get("username") || "",
     });
     history.replaceState(null, "", "#admin");
     return true;
   }
   return false;
+}
+
+function isAdminIdentity(identity) {
+  const settings = getSettings();
+  const email = String(identity.email || "").trim().toLowerCase();
+  const githubLogin = String(identity.githubLogin || "").trim().toLowerCase().replace(/^@/, "");
+  const adminEmail = String(settings.adminGoogleEmail || "").trim().toLowerCase();
+  const adminGitHub = String(settings.adminGitHubUser || "").trim().toLowerCase().replace(/^@/, "");
+  return Boolean((adminEmail && email === adminEmail) || (adminGitHub && githubLogin === adminGitHub));
 }
 
 function bindDraftComposer() {
