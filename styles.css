@@ -160,8 +160,80 @@ h2,
 }
 
 .brand {
+  display: inline-flex;
+  min-width: 0;
+  align-items: center;
+  gap: 10px;
   font-size: 1.35rem;
   font-weight: 700;
+}
+
+.brand > span:last-child {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.brand-mark {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+  place-items: center;
+  border: 1px solid var(--sage);
+  border-radius: 8px;
+  background: var(--sage-dark);
+  color: #fffdf8;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.logo-seal .brand-mark {
+  border-radius: 999px;
+}
+
+.logo-wordmark .brand-mark {
+  width: auto;
+  min-width: 54px;
+  padding: 0 12px;
+}
+
+.logo-plain .brand-mark,
+.mark-none .brand-mark {
+  display: none;
+}
+
+.mark-leaf .brand-mark {
+  border-radius: 999px 8px 999px 8px;
+}
+
+.mark-spark .brand-mark {
+  transform: rotate(-3deg);
+}
+
+.mark-dot .brand-mark {
+  width: 34px;
+  height: 34px;
+  flex-basis: 34px;
+  border-radius: 999px;
+  font-size: 0;
+}
+
+.nav-centered {
+  justify-content: center;
+}
+
+.nav-centered .account-actions {
+  position: absolute;
+  right: max(24px, calc((100vw - 1120px) / 2));
+}
+
+.nav-stacked {
+  align-items: flex-start;
+  flex-direction: column;
+  padding-bottom: 40px;
 }
 
 .nav-links {
@@ -203,6 +275,10 @@ h2,
   grid-template-columns: minmax(0, 1fr) 360px;
   gap: var(--gap-lg);
   align-items: center;
+}
+
+.hero-no-snapshot .hero-grid {
+  grid-template-columns: minmax(0, 860px);
 }
 
 .hero-centered .hero-section {
@@ -456,6 +532,19 @@ h2 {
 
 .posts-feature .post-card:first-child h3 {
   font-size: clamp(2rem, 4vw, 3.8rem);
+}
+
+.archive-compact .archive-list a {
+  grid-template-columns: 56px 1fr;
+  min-height: 54px;
+  padding: 12px 0;
+  font-size: clamp(1.15rem, 2vw, 1.7rem);
+}
+
+.archive-columns .archive-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 34px;
 }
 
 .post-card {
@@ -726,6 +815,17 @@ h2 {
   font-weight: 800;
 }
 
+.toggle-field {
+  align-content: center;
+  grid-template-columns: auto minmax(0, 1fr);
+}
+
+.toggle-field input,
+.preference-list input {
+  width: auto;
+  accent-color: var(--sage);
+}
+
 .draft-form input,
 .draft-form select,
 .draft-form textarea,
@@ -744,9 +844,19 @@ h2 {
   resize: vertical;
 }
 
+.settings-form .toggle-field input,
+.preference-list input {
+  width: auto;
+}
+
 .wide-field,
 .settings-form label:nth-child(2) {
   grid-column: 1 / -1;
+}
+
+.integration-form {
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
 }
 
 .draft-preview,
@@ -774,6 +884,10 @@ h2 {
   align-items: center;
 }
 
+.profile-card strong {
+  font-size: 1.15rem;
+}
+
 .avatar {
   display: grid;
   width: 64px;
@@ -783,6 +897,58 @@ h2 {
   background: var(--sage-dark);
   color: #fffdf8;
   font-weight: 900;
+}
+
+.avatar-square {
+  border-radius: 8px;
+}
+
+.avatar-soft {
+  border-radius: 18px;
+  background: color-mix(in srgb, var(--sage) 75%, white);
+}
+
+.avatar-ring {
+  border: 4px solid color-mix(in srgb, var(--sage) 38%, white);
+  background: var(--paper);
+  color: var(--sage-dark);
+}
+
+.profile-card .integration-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.integration-link {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--sage-dark);
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 0.82rem;
+  font-weight: 900;
+  padding: 7px 10px;
+}
+
+.profile-card .profile-card {
+  border-left-width: 1px;
+  box-shadow: 0 18px 44px rgba(66, 53, 36, 0.1);
+}
+
+.profile-banner .profile-card {
+  border-left-width: 1px;
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--sage) 18%, white), transparent 62%),
+    var(--background);
+}
+
+.profile-badge .profile-card {
+  width: min(520px, 100%);
+  border-left-width: 1px;
+  border-radius: 999px;
+  padding: 18px 24px 18px 18px;
 }
 
 .preference-list label {
@@ -903,6 +1069,7 @@ h2 {
   .posts-list .post-card article,
   .posts-feature .post-grid,
   .post-grid,
+  .archive-columns .archive-list,
   .admin-page-layout,
   .metric-grid,
   .draft-form,
@@ -920,6 +1087,10 @@ h2 {
   }
 
   .admin-sidebar {
+    position: static;
+  }
+
+  .nav-centered .account-actions {
     position: static;
   }
 
@@ -960,5 +1131,9 @@ h2 {
 
   .profile-card {
     grid-template-columns: 1fr;
+  }
+
+  .profile-badge .profile-card {
+    border-radius: 8px;
   }
 }
