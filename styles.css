@@ -671,6 +671,85 @@ h2 {
   padding: 22px;
 }
 
+.signin-page {
+  min-height: 100vh;
+  padding: 22px;
+}
+
+.signin-panel {
+  display: grid;
+  max-width: 760px;
+  gap: 18px;
+}
+
+.signin-copy,
+.auth-help {
+  max-width: 680px;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.provider-list {
+  display: grid;
+  gap: 10px;
+}
+
+.provider-button {
+  display: grid;
+  gap: 6px;
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  color: var(--foreground);
+  cursor: pointer;
+  padding: 16px;
+  text-align: left;
+}
+
+.provider-button strong {
+  font-size: 1rem;
+}
+
+.provider-button span,
+.auth-notice {
+  color: var(--muted);
+}
+
+.provider-button:hover {
+  border-color: var(--sage);
+  background: color-mix(in srgb, var(--sage) 10%, var(--paper));
+}
+
+.provider-github {
+  border-left: 4px solid #24292f;
+}
+
+.provider-google {
+  border-left: 4px solid #4285f4;
+}
+
+.provider-microsoft {
+  border-left: 4px solid #0078d4;
+}
+
+.provider-browser {
+  border-left: 4px solid var(--sage);
+}
+
+.auth-notice,
+.auth-settings {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--sage) 10%, var(--paper));
+  padding: 16px;
+}
+
+.auth-settings {
+  display: grid;
+  gap: 16px;
+}
+
 .admin-topbar {
   display: flex;
   width: min(1240px, 100%);

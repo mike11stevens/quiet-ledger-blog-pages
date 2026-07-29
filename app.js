@@ -96,6 +96,10 @@ const defaults = {
   postLayout: "grid",
   archiveLayout: "standard",
   density: "comfortable",
+  githubAuthUrl: "",
+  googleClientId: "",
+  microsoftClientId: "",
+  microsoftTenant: "common",
 };
 
 const settingsKey = "quiet-ledger-site-settings";
@@ -172,12 +176,15 @@ function saveDraft(draft) {
   setTimeout(() => document.querySelector("#admin-compose")?.scrollIntoView(), 0);
 }
 
-function signIn() {
+function signIn(provider = "Browser profile", identity = {}) {
   const profile = getProfile();
+  const displayName = identity.displayName || profile.displayName;
+  const email = identity.email || profile.email;
   localStorage.setItem(
     sessionKey,
-    JSON.stringify({ displayName: profile.displayName, email: profile.email }),
+    JSON.stringify({ displayName, email, provider }),
   );
+  if (identity.displayName || identity.email) saveProfile({ displayName, email });
   render("#admin");
 }
 
@@ -213,7 +220,7 @@ function nav(settings, active = "") {
         ${
           session.email
             ? `<a class="account-pill" href="#profile" data-route="#profile">${escapeHtml(session.displayName)}</a><button class="secondary-action" data-action="sign-out">Sign out</button>`
-            : `<button class="primary-action" data-action="sign-in">Sign in</button>`
+            : `<a class="primary-action" href="#signin" data-route="#signin">Sign in</a>`
         }
       </div>
     </nav>`;
@@ -298,6 +305,44 @@ function renderPost(settings, slug) {
         <p class="post-dek">${escapeHtml(post.excerpt)}</p>
         <div class="post-body">${post.body.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}</div>
       </article>
+    </main>`;
+}
+
+function renderSignIn(settings) {
+  const notice = localStorage.getItem("quiet-ledger-auth-notice") || "";
+  if (notice) localStorage.removeItem("quiet-ledger-auth-notice");
+  const providers = [
+    ["github", "GitHub", "Connect through your configured GitHub auth endpoint."],
+    ["google", "Google", "Use your Google OAuth browser client ID."],
+    ["microsoft", "Microsoft", "Use your Microsoft Entra app client ID."],
+  ];
+  return `
+    <main class="signin-page">
+      ${nav(settings)}
+      <section class="site-shell signin-panel">
+        <div>
+          <p class="eyebrow">Sign in</p>
+          <h1>Choose an account</h1>
+          <p class="signin-copy">Provider sign-in can be connected from Admin settings. GitHub needs a secure auth endpoint because GitHub's token exchange cannot safely happen inside a static GitHub Pages site.</p>
+        </div>
+        ${notice ? `<div class="auth-notice">${escapeHtml(notice)}</div>` : ""}
+        <div class="provider-list">
+          ${providers
+            .map(
+              ([key, label, copy]) => `
+                <button class="provider-button provider-${key}" data-provider-login="${key}" type="button">
+                  <strong>${label}</strong>
+                  <span>${copy}</span>
+                </button>`,
+            )
+            .join("")}
+          <button class="provider-button provider-browser" data-provider-login="browser" type="button">
+            <strong>Browser profile</strong>
+            <span>Use the local profile saved in this browser.</span>
+          </button>
+        </div>
+        <a class="secondary-action" href="#admin-settings" data-route="#admin-settings">Open sign-in settings</a>
+      </section>
     </main>`;
 }
 
@@ -450,6 +495,16 @@ function appearancePanel(settings) {
       </div>
       <div class="style-options">${styles.map(([value, label]) => `<button class="${settings.style === value ? "active" : ""}" data-style="${value}"><span class="swatch swatch-${value}"></span>${label}</button>`).join("")}</div>
       <div class="settings-strip"><strong>Publishing settings</strong><span>Default status: Draft</span><span>Archive sorting: Newest first</span></div>
+      <div class="auth-settings">
+        <div><p class="eyebrow">Integrations</p><h2>Sign-in providers</h2></div>
+        <div class="settings-form">
+          <label class="wide-field">GitHub auth endpoint<input data-setting="githubAuthUrl" type="url" placeholder="https://your-auth.example.com/github/start" value="${escapeAttr(settings.githubAuthUrl)}" /></label>
+          <label class="wide-field">Google client ID<input data-setting="googleClientId" placeholder="Google OAuth web client ID" value="${escapeAttr(settings.googleClientId)}" /></label>
+          <label>Microsoft client ID<input data-setting="microsoftClientId" placeholder="Application client ID" value="${escapeAttr(settings.microsoftClientId)}" /></label>
+          <label>Microsoft tenant<input data-setting="microsoftTenant" placeholder="common" value="${escapeAttr(settings.microsoftTenant)}" /></label>
+        </div>
+        <div class="auth-help">GitHub requires a backend/auth endpoint for the secure code exchange. Google and Microsoft can start from public client IDs, but production apps should still verify tokens server-side.</div>
+      </div>
     </section>`;
 }
 
@@ -472,6 +527,8 @@ function render(forcedHash) {
   const postMatch = hash.match(/^#post\/(.+)$/);
   if (postMatch) {
     app.innerHTML = renderPost(settings, postMatch[1]);
+  } else if (hash.startsWith("#signin")) {
+    app.innerHTML = renderSignIn(settings);
   } else if (hash.startsWith("#admin")) {
     app.innerHTML = renderAdmin(settings);
   } else if (hash.startsWith("#profile")) {
@@ -506,8 +563,130 @@ function bindEvents() {
     field.addEventListener("change", () => saveProfile({ [field.dataset.profileCheck]: field.checked }));
   });
   bindDraftComposer();
-  document.querySelectorAll("[data-action='sign-in']").forEach((button) => button.addEventListener("click", signIn));
+  document.querySelectorAll("[data-provider-login]").forEach((button) => {
+    button.addEventListener("click", () => startProviderLogin(button.dataset.providerLogin));
+  });
   document.querySelectorAll("[data-action='sign-out']").forEach((button) => button.addEventListener("click", signOut));
+}
+
+function startProviderLogin(provider) {
+  const settings = getSettings();
+  if (provider === "browser") {
+    signIn("Browser profile");
+    return;
+  }
+  if (provider === "github") {
+    if (!settings.githubAuthUrl) {
+      setAuthNotice("Add a GitHub auth endpoint in Admin settings, then try GitHub again.");
+      return;
+    }
+    const url = new URL(settings.githubAuthUrl);
+    url.searchParams.set("provider", "github");
+    url.searchParams.set("return_to", `${location.origin}${location.pathname}`);
+    location.href = url.toString();
+    return;
+  }
+  if (provider === "google") {
+    startGoogleLogin(settings.googleClientId);
+    return;
+  }
+  if (provider === "microsoft") {
+    startMicrosoftLogin(settings.microsoftClientId, settings.microsoftTenant || "common");
+  }
+}
+
+function startGoogleLogin(clientId) {
+  if (!clientId) {
+    setAuthNotice("Add a Google client ID in Admin settings, then try Google again.");
+    return;
+  }
+  loadScript("https://accounts.google.com/gsi/client")
+    .then(() => {
+      window.google.accounts.id.initialize({
+        client_id: clientId,
+        callback: (response) => {
+          const payload = parseJwt(response.credential);
+          signIn("Google", {
+            displayName: payload.name || payload.email || "Google user",
+            email: payload.email || "",
+          });
+        },
+      });
+      window.google.accounts.id.prompt();
+    })
+    .catch(() => setAuthNotice("Google sign-in could not load. Check the client ID and try again."));
+}
+
+function startMicrosoftLogin(clientId, tenant) {
+  if (!clientId) {
+    setAuthNotice("Add a Microsoft client ID in Admin settings, then try Microsoft again.");
+    return;
+  }
+  const nonce = `nonce-${Date.now()}`;
+  sessionStorage.setItem("quiet-ledger-ms-nonce", nonce);
+  const url = new URL(`https://login.microsoftonline.com/${encodeURIComponent(tenant)}/oauth2/v2.0/authorize`);
+  url.searchParams.set("client_id", clientId);
+  url.searchParams.set("response_type", "id_token");
+  url.searchParams.set("redirect_uri", `${location.origin}${location.pathname}`);
+  url.searchParams.set("scope", "openid profile email");
+  url.searchParams.set("response_mode", "fragment");
+  url.searchParams.set("nonce", nonce);
+  url.searchParams.set("state", "microsoft");
+  location.href = url.toString();
+}
+
+function setAuthNotice(message) {
+  localStorage.setItem("quiet-ledger-auth-notice", message);
+  render("#signin");
+}
+
+function loadScript(src) {
+  return new Promise((resolve, reject) => {
+    const existing = document.querySelector(`script[src="${src}"]`);
+    if (existing) {
+      resolve();
+      return;
+    }
+    const script = document.createElement("script");
+    script.src = src;
+    script.async = true;
+    script.defer = true;
+    script.onload = resolve;
+    script.onerror = reject;
+    document.head.appendChild(script);
+  });
+}
+
+function parseJwt(token) {
+  try {
+    const payload = token.split(".")[1].replace(/-/g, "+").replace(/_/g, "/");
+    return JSON.parse(decodeURIComponent(atob(payload).split("").map((char) => `%${(`00${char.charCodeAt(0).toString(16)}`).slice(-2)}`).join("")));
+  } catch {
+    return {};
+  }
+}
+
+function handleAuthReturn() {
+  const params = new URLSearchParams(location.hash.slice(1));
+  if (params.get("id_token") && params.get("state") === "microsoft") {
+    const payload = parseJwt(params.get("id_token"));
+    signIn("Microsoft", {
+      displayName: payload.name || payload.preferred_username || "Microsoft user",
+      email: payload.email || payload.preferred_username || "",
+    });
+    history.replaceState(null, "", "#admin");
+    return true;
+  }
+  const query = new URLSearchParams(location.search);
+  if (query.get("provider") === "github") {
+    signIn("GitHub", {
+      displayName: query.get("name") || query.get("login") || "GitHub user",
+      email: query.get("email") || "",
+    });
+    history.replaceState(null, "", "#admin");
+    return true;
+  }
+  return false;
 }
 
 function bindDraftComposer() {
@@ -571,4 +750,4 @@ function updateSiteIcon(settings) {
 }
 
 window.addEventListener("popstate", () => render());
-render();
+if (!handleAuthReturn()) render();
