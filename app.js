@@ -101,6 +101,8 @@ const defaults = {
 const settingsKey = "quiet-ledger-site-settings";
 const profileKey = "quiet-ledger-user-profile";
 const sessionKey = "quiet-ledger-session";
+const draftsKey = "quiet-ledger-drafts";
+const draftNoticeKey = "quiet-ledger-draft-notice";
 const app = document.querySelector("#app");
 
 function getSettings() {
@@ -130,6 +132,11 @@ function getSession() {
   return readJson(sessionKey);
 }
 
+function getDrafts() {
+  const drafts = readJson(draftsKey);
+  return Array.isArray(drafts.items) ? drafts.items : [];
+}
+
 function readJson(key) {
   try {
     return JSON.parse(localStorage.getItem(key) || "null") || {};
@@ -146,6 +153,23 @@ function saveSettings(next) {
 function saveProfile(next) {
   localStorage.setItem(profileKey, JSON.stringify({ ...getProfile(), ...next }));
   render();
+}
+
+function saveDraft(draft) {
+  const drafts = getDrafts();
+  const cleanTitle = draft.title.trim() || "Untitled draft";
+  const cleanSummary = draft.summary.trim() || "No summary yet.";
+  const nextDraft = {
+    id: `draft-${Date.now()}`,
+    title: cleanTitle,
+    category: draft.category,
+    summary: cleanSummary,
+    updated: "Just now",
+  };
+  localStorage.setItem(draftsKey, JSON.stringify({ items: [nextDraft, ...drafts] }));
+  localStorage.setItem(draftNoticeKey, `${cleanTitle} saved as a draft.`);
+  render("#admin");
+  setTimeout(() => document.querySelector("#admin-compose")?.scrollIntoView(), 0);
 }
 
 function signIn() {
@@ -317,8 +341,16 @@ function renderAdmin(settings) {
 }
 
 function postRows() {
+  const savedDrafts = getDrafts();
   return `
     <div class="table-row table-head"><span>Post</span><span>Status</span><span>Owner</span><span>Updated</span></div>
+    ${savedDrafts.map((draft) => `
+      <div class="table-row">
+        <div><strong>${escapeHtml(draft.title)}</strong><small>${escapeHtml(draft.category)}</small></div>
+        <span class="status-pill draft">Draft</span>
+        <span>You</span>
+        <span>${escapeHtml(draft.updated)}</span>
+      </div>`).join("")}
     ${posts.map((post) => `
       <div class="table-row">
         <a class="queue-post-link" href="#post/${post.slug}" data-route="#post/${post.slug}"><strong>${escapeHtml(post.title)}</strong><small>${post.category}</small></a>
@@ -329,15 +361,21 @@ function postRows() {
 }
 
 function composePanel() {
+  const notice = localStorage.getItem(draftNoticeKey);
+  if (notice) localStorage.removeItem(draftNoticeKey);
   return `
     <section class="compose-panel" id="admin-compose">
       <div><p class="eyebrow">Compose</p><h2>New draft</h2></div>
       <div class="draft-form">
         <label>Title<input placeholder="Working title" data-draft-title /></label>
-        <label>Category<select><option>Practice</option><option>Process</option><option>Library</option><option>Workflow</option></select></label>
-        <label class="wide-field">Summary<textarea rows="4" placeholder="A short note for the post preview"></textarea></label>
+        <label>Category<select data-draft-category><option>Practice</option><option>Process</option><option>Library</option><option>Workflow</option></select></label>
+        <label class="wide-field">Summary<textarea data-draft-summary rows="4" placeholder="A short note for the post preview"></textarea></label>
       </div>
-      <div class="draft-preview"><span>Draft preview</span><strong>Untitled draft</strong><p>Your post summary will appear here.</p></div>
+      <div class="draft-preview" aria-live="polite"><span data-draft-preview-category>Draft preview</span><strong data-draft-preview-title>Untitled draft</strong><p data-draft-preview-summary>Your post summary will appear here.</p></div>
+      <div class="admin-footer">
+        <span class="draft-status" data-draft-status>${notice ? escapeHtml(notice) : "Ready for a new post"}</span>
+        <button class="new-post-button" type="button" data-action="save-draft">Save draft</button>
+      </div>
     </section>`;
 }
 
@@ -467,8 +505,34 @@ function bindEvents() {
   document.querySelectorAll("[data-profile-check]").forEach((field) => {
     field.addEventListener("change", () => saveProfile({ [field.dataset.profileCheck]: field.checked }));
   });
+  bindDraftComposer();
   document.querySelectorAll("[data-action='sign-in']").forEach((button) => button.addEventListener("click", signIn));
   document.querySelectorAll("[data-action='sign-out']").forEach((button) => button.addEventListener("click", signOut));
+}
+
+function bindDraftComposer() {
+  const title = document.querySelector("[data-draft-title]");
+  const category = document.querySelector("[data-draft-category]");
+  const summary = document.querySelector("[data-draft-summary]");
+  const saveButton = document.querySelector("[data-action='save-draft']");
+  if (!title || !category || !summary || !saveButton) return;
+
+  const updatePreview = () => {
+    const titleValue = title.value.trim();
+    const summaryValue = summary.value.trim();
+    document.querySelector("[data-draft-preview-title]").textContent = titleValue || "Untitled draft";
+    document.querySelector("[data-draft-preview-category]").textContent = category.value;
+    document.querySelector("[data-draft-preview-summary]").textContent =
+      summaryValue || "Your post summary will appear here.";
+    document.querySelector("[data-draft-status]").textContent =
+      titleValue || summaryValue ? "Unsaved draft" : "Ready for a new post";
+  };
+
+  [title, category, summary].forEach((field) => field.addEventListener("input", updatePreview));
+  category.addEventListener("change", updatePreview);
+  saveButton.addEventListener("click", () =>
+    saveDraft({ title: title.value, category: category.value, summary: summary.value }),
+  );
 }
 
 function escapeHtml(value) {
