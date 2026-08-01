@@ -14,7 +14,15 @@ tags:
 
 One year ago today, on January 27, 2010, I walked through the doors of Microsoft for the first time as an employee.
 
-For years, Microsoft had been the company I hoped I might someday work for. Like many IT professionals, I had built solutions on Microsoft technologies, earned certifications, followed product releases, and imagined what it would be like to work alongside the people behind the products I used every day.
+For my adult life—and much of my adolescence—[Microsoft](https://www.microsoft.com/en-us/about) had been the company I hoped I might someday work for.
+
+Thanks to my engineer and technology-curious father, I grew up with access to computers from an early age. I spent the 1980s and early 1990s building PCs, scouring computer magazines, connecting to bulletin board systems over a modem, learning to code, building crude HTML pages, and generally meandering through any technology I could get my hands on. What a ride(!)
+
+Like many IT professionals, I had built solutions on Microsoft technologies, [earned certifications](https://learn.microsoft.com/en-us/credentials/), followed product releases, and imagined what it would be like to work alongside the people behind the products I used every day. I looked forward to Windows releases and the arrival of my monthly [TechNet](https://learn.microsoft.com/en-us/previous-versions/) subscription, packed with new products to test. I hung on every Microsoft news story from Mary Jo Foley.
+
+In short, I was a MASSIVE fanboy.
+
+And now I was inside. Had my career peaked at 30? How did I get here? Had someone in HR made a mistake? Now what?!?!
 
 Now, one year later, I find myself looking back and reflecting on what I've learned.
 
@@ -30,11 +38,19 @@ It was this:
 
 ## A Lot of Onboarding
 
-My first stop was new-hire orientation at the Alpharetta office in Sanctuary Park. From there, I joined a few shadow engagements with Premier Field Engineers across the Southeast, rotated onto a Critical Situation—or "CritSit"—team in the Las Colinas office, and then spent several weeks at Microsoft Services University in the Seattle and Redmond area.
+My first stop was new-hire orientation at the Alpharetta office in Sanctuary Park. From there, I joined a few shadow engagements with [Premier Field Engineers](https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/how-to-become-a-premier-field-engineer-pfe/255475) across the Southeast, rotated onto a [Critical Situation—or "CritSit"—team](https://download.microsoft.com/documents/uk/services/premiersupport/premier-datasheet.pdf) in the Las Colinas office, and then spent several weeks at Microsoft Services University in the Seattle and Redmond area.
+
+This video captures some of the energy—and the larger-than-life expectations—surrounding the PFE role at the time:
+
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/9IzawEZf48Y" title="Microsoft Premier Field Engineer - Be the HERO" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<p class="video-link"><a href="https://www.youtube.com/watch?v=9IzawEZf48Y" target="_blank" rel="noopener">Watch “Microsoft Premier Field Engineer - Be the HERO” on YouTube</a></p>
 
 It was a lot of onboarding.
 
-I had come from the consulting world in the Microsoft partner ecosystem, where I was accustomed to moving quickly from one customer engagement to the next. I was chomping at the bit to contribute, and I found the stretches of "bench time" surprisingly uncomfortable.
+I had come from the consulting world in the [Microsoft partner ecosystem](https://partner.microsoft.com/en-US/partnership/find-a-partner), where I was accustomed to moving quickly from one customer engagement to the next. I was chomping at the bit to contribute, and I found the stretches of "bench time" surprisingly uncomfortable.
 
 In hindsight, that slower start was doing something important. It was teaching me how Microsoft worked: not only its tools, systems, and acronyms, but the network of people and roles behind every successful customer engagement.
 
@@ -52,7 +68,7 @@ Then I started working with customers.
 
 Almost immediately, I found myself involved in situations that stretched beyond my experience level: new technologies, complex enterprise environments, and problems that didn't have obvious answers. Rather than having everything figured out, I found myself reaching out to experienced engineers, specialists, and peers to learn faster and validate my thinking.
 
-One exchange from late this year stuck with me:
+One exchange from late this year, over [Office Communicator](https://learn.microsoft.com/en-us/previous-versions/office/), stuck with me:
 
 ```text
 Office Communicator
@@ -85,7 +101,7 @@ Before joining, I imagined expertise living primarily within individuals.
 
 Inside the company, I've learned that expertise often exists within networks.
 
-When difficult customer situations arise, specialists, Premier Field Engineers, Technical Account Managers, consultants, support teams, and customers work together to understand the issue and identify a path forward.
+When difficult customer situations arise, specialists, Premier Field Engineers, [Technical Account Managers](https://download.microsoft.com/documents/uk/technet/opex/downloads/Premier_Support_Overview.pdf), consultants, support teams, and customers work together to understand the issue and identify a path forward.
 
 The answer rarely comes from one person.
 
@@ -120,7 +136,7 @@ They're the people who know how to connect expertise to problems.
 
 At the beginning of the year, I thought growth came from accumulating answers.
 
-Today, I think growth might come from learning how to ask better questions.
+Today, I think growth might come from [learning how to ask better questions](https://learn.microsoft.com/en-us/answers/support/ask-question).
 
 The more customer engagements I've participated in, the more I've realized that complex problems rarely have simple solutions.
 
@@ -200,32 +216,32 @@ January 27, 2011
    Finally feeling like I belong.
 ```
 
-## 2010 in Numbers
+## 2010 in (Some) Numbers
 
 Not every milestone can be measured, but a few stand out:
 
-- First year at Microsoft
-- Multiple enterprise customer engagements
-- Collaboration with Premier Field Engineers, Technical Account Managers, specialists, and customer teams
-- Dozens of new professional relationships
-- Countless new products, technologies, and acronyms
+- First year at Microsoft—zero times fired
+- More than 50 enterprise customer engagements in my first 52 weeks
+- Collaboration with hundreds—nay, thousands—of absolute rockstar Premier Field Engineers, Technical Account Managers, specialists, and customer teams
+- Dozens of new best buddies at internal and external events
+- An infinite number of new products, technologies, and three-letter acronyms learned
 - Far more questions asked than answers given
 
 ### Most Valuable Lesson
 
-> Curiosity scales faster than expertise.
+> *Curiosity, humility, and empathy scale faster than expertise.*
 
 ## What I'm Learning About
 
 Some of the topics that occupied much of my attention this year included:
 
-- SharePoint Online
+- [SharePoint Online](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration)
 - Enterprise collaboration technologies
-- Online services
+- [Online services](https://www.microsoft.com/en-us/microsoft-365/what-is-microsoft-365)
 - Customer consulting
-- Troubleshooting and investigations
+- [Troubleshooting and investigations](https://learn.microsoft.com/en-us/troubleshoot/)
 - Working across technical and business teams
-- Premier support delivery models
+- [Premier support delivery models](https://www.microsoft.com/en-us/unifiedsupport/overview)
 
 Many of the conversations that shaped my first year touched one or more of these areas.
 
@@ -237,9 +253,9 @@ They were people.
 
 - Premier Field Engineers
 - Technical Account Managers
-- Customer support organizations
-- Specialist communities
-- Technical discussion groups
+- [Customer support organizations](https://support.microsoft.com/)
+- [Specialist communities](https://techcommunity.microsoft.com/)
+- [Technical discussion groups](https://learn.microsoft.com/en-us/answers/)
 - Customer engagement teams
 
 Repeatedly, I found that the fastest way to solve a problem was to connect with someone who had already solved a similar one.
@@ -260,7 +276,7 @@ Nobody succeeds here alone.
 
 The more I learn, the more I realize that expertise isn't about having every answer.
 
-It's about staying curious enough to ask the next question.
+It's about [staying curious enough to ask the next question](https://careers.microsoft.com/v2/global/en/culture).
 
 It's about building relationships.
 
