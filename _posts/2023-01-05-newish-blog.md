@@ -26,6 +26,8 @@ Follow [@mike11stevens](https://x.com/mike11stevens)
       <span class="link-card__excerpt">Fresh-ish thoughts, half-baked observations, and the occasional proof of life.</span>
       <span class="link-card__domain">x.com</span>
     </span>
-    <span class="link-card__thumb link-card__thumb--source">X</span>
+    <span class="link-card__thumb link-card__thumb--source">
+      <img src="{{ '/assets/images/mike11stevens-x-avatar.jpg' | relative_url }}" alt="@mike11stevens on X">
+    </span>
   </a>
 </div>
