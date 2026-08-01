@@ -19,18 +19,18 @@ recovered: true
 
 This blog has moved around enough that “new” probably needs an asterisk.
 
-Some of these posts began life in WordPress. Later ones passed through Ghost, and still others arrived wearing Medium’s particular flavor of formatting. Each platform made publishing easy in its own way: open an editor, move some blocks around, click a button, and trust the machinery behind the curtain.
+Some of these posts began life in <a href="https://wordpress.org/" target="_blank" rel="noopener noreferrer">WordPress</a>. Later ones passed through <a href="https://github.com/TryGhost/Ghost" target="_blank" rel="noopener noreferrer">Ghost</a>, and still others arrived wearing <a href="https://medium.com/" target="_blank" rel="noopener noreferrer">Medium’s</a> particular flavor of formatting. Each platform made publishing easy in its own way: open an editor, move some blocks around, click a button, and trust the machinery behind the curtain.
 
-Now I’m trying something different: GitHub Pages and Jekyll.
+Now I’m trying something different: <a href="https://docs.github.com/en/pages" target="_blank" rel="noopener noreferrer">GitHub Pages</a> and the open-source <a href="https://github.com/jekyll/jekyll" target="_blank" rel="noopener noreferrer">Jekyll project</a>.
 
 ## The repository is the CMS
 
 The publishing process looks less like operating a traditional blog and more like maintaining a very small software project:
 
-1. Write a post in Markdown.
-2. Add a little YAML front matter for the title, date, tags, and layout.
-3. Commit it to a GitHub repository.
-4. Let GitHub Pages run Jekyll and generate the static site.
+1. Write a post in <a href="https://daringfireball.net/projects/markdown/syntax" target="_blank" rel="noopener noreferrer">Markdown</a>.
+2. Add a little <a href="https://jekyllrb.com/docs/front-matter/" target="_blank" rel="noopener noreferrer">YAML front matter</a> for the title, date, tags, and layout.
+3. Commit it to <a href="https://github.com/mike11stevens/vampireworkday" target="_blank" rel="noopener noreferrer">a GitHub repository</a>.
+4. Let GitHub Pages <a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll" target="_blank" rel="noopener noreferrer">run Jekyll and generate the static site</a>.
 
 There is no production database full of posts and no server-side publishing application waiting for someone to remember its password. The content, templates, configuration, images, and revision history all live together in the repository.
 
@@ -44,10 +44,10 @@ Converting the old posts has been the interesting part.
 
 <figure class="image-figure">
   <img src="{{ '/assets/images/dr-jekyll-mr-hyde-transformation-poster.jpg' | relative_url }}" alt="The Transformation, an 1880s theatrical poster for Dr. Jekyll and Mr. Hyde" loading="lazy" decoding="async">
-  <figcaption>“The Transformation,” an 1880s theatrical poster for <cite>Dr. Jekyll and Mr. Hyde</cite>. <a href="https://www.loc.gov/item/2014635954/">Library of Congress</a>; no known restrictions on publication.</figcaption>
+  <figcaption>“The Transformation,” an 1880s theatrical poster for <cite>Dr. Jekyll and Mr. Hyde</cite>. <a href="https://www.loc.gov/item/2014635954/" target="_blank" rel="noopener noreferrer">Library of Congress</a>; no known restrictions on publication.</figcaption>
 </figure>
 
-WordPress exports, Ghost exports, and Medium-flavored HTML may all describe roughly the same things—titles, dates, paragraphs, links, images—but they do not describe them in quite the same way. The basic conversion is only the beginning. Then comes the archaeology:
+<a href="https://wordpress.com/support/export/" target="_blank" rel="noopener noreferrer">WordPress exports</a>, <a href="https://ghost.org/help/exports/" target="_blank" rel="noopener noreferrer">Ghost exports</a>, and <a href="https://help.medium.com/hc/en-us/articles/115004745787-Export-your-account-data" target="_blank" rel="noopener noreferrer">Medium-flavored HTML</a> may all describe roughly the same things—titles, dates, paragraphs, links, images—but they do not describe them in quite the same way. The basic conversion is only the beginning. Then comes the archaeology:
 
 - preserving original publication dates;
 - rebuilding front matter;
@@ -65,7 +65,7 @@ I have spent plenty of time tinkering with GUI-driven blogging platforms. There 
 
 This setup makes a different trade:
 
-- I get version history, diffs, and backups through Git.
+- I get version history, diffs, and backups through <a href="https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control.html" target="_blank" rel="noopener noreferrer">Git</a>.
 - I can edit with whatever text editor I want.
 - The published site is made of simple static files.
 - There is less server and plugin maintenance.
@@ -89,16 +89,16 @@ At minimum, it has already given me something new-ish to tinker with.
 
 A few useful accounts from people who took similar routes:
 
-- [Moving from WordPress to Jekyll](https://tobiasahlin.com/blog/moving-from-wordpress-to-jekyll/) — Tobias Ahlin, 2013. Includes thoughts on preserving old URLs when moving more than 100 posts.
-- [Migrating from Ghost to Jekyll and GitHub Pages](https://vext.info/2018/07/29/migrating-from-ghost-to-jekyll-and-github-pages.html) — a migration motivated partly by reducing infrastructure and maintenance.
-- [Migrating Blog to Jekyll](https://www.wiserfirst.com/blog/migrating-blog-to-jekyll/) — a useful example of gathering content from multiple earlier platforms, including Medium.
-- [Migrating From WordPress to Jekyll on GitHub Pages](https://www.roberthorvick.com/blog/migrating-from-wordpress-to-jekyll-github-pages) — a March 2022 walkthrough covering export problems, URLs, images, and GitHub Pages.
-- [Add a Headless CMS to Jekyll](https://www.storyblok.com/tp/headless-cms-jekyll) — an example of the more literal headless-CMS model, where Jekyll consumes content from an external API.
+- <a href="https://tobiasahlin.com/blog/moving-from-wordpress-to-jekyll/" target="_blank" rel="noopener noreferrer">Moving from WordPress to Jekyll</a> — Tobias Ahlin, 2013. Includes thoughts on preserving old URLs when moving more than 100 posts.
+- <a href="https://vext.info/2018/07/29/migrating-from-ghost-to-jekyll-and-github-pages.html" target="_blank" rel="noopener noreferrer">Migrating from Ghost to Jekyll and GitHub Pages</a> — a migration motivated partly by reducing infrastructure and maintenance.
+- <a href="https://www.wiserfirst.com/blog/migrating-blog-to-jekyll/" target="_blank" rel="noopener noreferrer">Migrating Blog to Jekyll</a> — a useful example of gathering content from multiple earlier platforms, including Medium.
+- <a href="https://www.roberthorvick.com/blog/migrating-from-wordpress-to-jekyll-github-pages" target="_blank" rel="noopener noreferrer">Migrating From WordPress to Jekyll on GitHub Pages</a> — a March 2022 walkthrough covering export problems, URLs, images, and GitHub Pages.
+- <a href="https://www.storyblok.com/tp/headless-cms-jekyll" target="_blank" rel="noopener noreferrer">Add a Headless CMS to Jekyll</a> — an example of the more literal headless-CMS model, where Jekyll consumes content from an external API.
 
-Follow [@mike11stevens](https://x.com/mike11stevens)
+Follow <a href="https://x.com/mike11stevens" target="_blank" rel="noopener noreferrer">@mike11stevens</a>
 
 <div class="link-card-group">
-  <a class="link-card" href="https://x.com/mike11stevens" target="_blank" rel="noopener">
+  <a class="link-card" href="https://x.com/mike11stevens" target="_blank" rel="noopener noreferrer">
     <span class="link-card__body">
       <strong class="link-card__title">@mike11stevens</strong>
       <span class="link-card__excerpt">Fresh-ish thoughts, half-baked observations, and the occasional proof of life.</span>
