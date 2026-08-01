@@ -17,6 +17,8 @@ archive_url: https://web.archive.org/web/20240724185220/https://vampireworkday.c
 recovered: true
 ---
 
+aka "Dr Jekyll and Mr Blog"
+
 This blog has moved around enough that “new” probably needs an asterisk.
 
 Some of these posts began life in <a href="https://wordpress.org/" target="_blank" rel="noopener noreferrer">WordPress</a>. Later ones passed through <a href="https://github.com/TryGhost/Ghost" target="_blank" rel="noopener noreferrer">Ghost</a>, and still others arrived wearing <a href="https://medium.com/" target="_blank" rel="noopener noreferrer">Medium’s</a> particular flavor of formatting. Each platform made publishing easy in its own way: open an editor, move some blocks around, click a button, and trust the machinery behind the curtain.
