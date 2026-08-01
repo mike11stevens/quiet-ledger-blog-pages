@@ -1,5 +1,5 @@
 ---
-title: "My First Year at Microsoft: From Fan of the Company to Trusted Advisor"
+title: "My First Year at Microsoft"
 date: 2011-01-27 00:00:00 -0500
 excerpt: "My first year at Microsoft taught me that expertise isn't about having every answer. It's about knowing how to find the right people and ask better questions."
 header:
@@ -13,13 +13,15 @@ tags:
   - professional-growth
 ---
 
-One year ago today, on January 27, 2010, I walked through the doors of Microsoft for the first time as an employee.
+One year ago today, on January 27, 2010, I walked through the doors of Microsoft for the first time as an employee—a "blue badge" FTE.
+
+![Mike Stevens's privacy-safe Microsoft employee badge]({{ '/assets/images/microsoft-first-year-badge.webp' | relative_url }}){: .align-center}
 
 For my adult life—and much of my adolescence—[Microsoft](https://www.microsoft.com/en-us/about) had been the company I hoped I might someday work for.
 
 Thanks to my engineer and technology-curious father, I grew up with access to computers from an early age. I spent the 1980s and early 1990s building PCs, scouring computer magazines, connecting to bulletin board systems over a modem, learning to code, building crude HTML pages, and generally meandering through any technology I could get my hands on. What a ride(!)
 
-![Bill Gates seated at a personal computer in the 1980s]({{ '/assets/images/bill-gates-personal-computer-1980s.webp' | relative_url }}){: .align-center}
+![Bill Gates holding a floppy disk on TIME magazine's 1984 “Computer Software” cover]({{ '/assets/images/time-bill-gates-computer-software-1984.webp' | relative_url }}){: .align-center}
 
 Like many IT professionals, I had built solutions on Microsoft technologies, [earned certifications](https://learn.microsoft.com/en-us/credentials/), followed product releases, and imagined what it would be like to work alongside the people behind the products I used every day. I looked forward to Windows releases and the arrival of my monthly [TechNet](https://learn.microsoft.com/en-us/previous-versions/) subscription, packed with new products to test. I hung on every Microsoft news story from Mary Jo Foley.
 
@@ -73,7 +75,7 @@ Then I started working with customers.
 
 Almost immediately, I found myself involved in situations that stretched beyond my experience level: new technologies, complex enterprise environments, and problems that didn't have obvious answers. Rather than having everything figured out, I found myself reaching out to experienced engineers, specialists, and peers to learn faster and validate my thinking.
 
-![Captain Kirk surrounded by tribbles with the caption “Overwhelmed?”]({{ '/assets/images/star-trek-tribbles-overwhelmed.webp' | relative_url }}){: .align-center}
+![An injured and overwhelmed Superman being helped by Lois Lane]({{ '/assets/images/superman-overwhelmed.webp' | relative_url }}){: .align-center}
 
 One exchange from late this year, over [Office Communicator](https://learn.microsoft.com/en-us/previous-versions/office/), stuck with me:
 
@@ -105,6 +107,8 @@ As a new employee, that was surprisingly encouraging.
 One of the biggest surprises of my first year has been how collaborative Microsoft is.
 
 Before joining, I imagined expertise living primarily within individuals.
+
+![Superman and Clark Kent facing each other beneath the words “We need to talk”]({{ '/assets/images/superman-clark-kent-individual-expertise.webp' | relative_url }}){: .align-center}
 
 Inside the company, I've learned that expertise often exists within networks.
 
@@ -184,7 +188,7 @@ Looking back, the most valuable thing I've gained this year may not be technical
 
 It may be relationships.
 
-![A map of Federation space and its interconnected civilizations]({{ '/assets/images/star-trek-federation-space-relationships.webp' | relative_url }}){: .align-center}
+![The Justice League satellite floor plan, showing its interconnected spaces and systems]({{ '/assets/images/justice-league-satellite-relationships.webp' | relative_url }}){: .align-center}
 
 The people I've met throughout Microsoft have consistently shared their knowledge, offered guidance, and taken time to help me learn. Many of the lessons I've learned this year came from conversations with people who had already faced the challenges I was encountering for the first time.
 
@@ -273,6 +277,8 @@ Repeatedly, I found that the fastest way to solve a problem was to connect with 
 
 ## Looking Ahead
 
+![Silhouettes of the Justice League standing together against a blue background]({{ '/assets/images/justice-league-looking-ahead.webp' | relative_url }}){: .align-center}
+
 A year ago, Microsoft was a company I hoped I might one day join.
 
 Today, it's a company filled with people who challenge me, teach me, and help me grow every day.
@@ -283,7 +289,7 @@ There are technologies I haven't mastered, customers I haven't worked with, and 
 
 But after my first year, I've come to appreciate something important:
 
-Nobody succeeds here alone.
+**Nobody succeeds here alone.**
 
 The more I learn, the more I realize that expertise isn't about having every answer.
 
