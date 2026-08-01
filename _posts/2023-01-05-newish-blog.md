@@ -8,14 +8,19 @@ tags:
   - reflection
   - blog
   - social
-image: /assets/images/recovered/newish-blog-modern-dusk.jpg
+image: /assets/images/dr-jekyll-mr-hyde-1920-barrymore.jpg
 header:
-  image: /assets/images/recovered/newish-blog-modern-dusk.jpg
-  teaser: /assets/images/recovered/newish-blog-modern-dusk.jpg
+  image: /assets/images/dr-jekyll-mr-hyde-1920-barrymore.jpg
+  teaser: /assets/images/dr-jekyll-mr-hyde-1920-barrymore.jpg
 source_url: https://vampireworkday.com/2023/01/05/newish-blog.html
 archive_url: https://web.archive.org/web/20240724185220/https://vampireworkday.com/2023/01/05/newish-blog.html
 recovered: true
 ---
+
+<figure class="image-figure">
+  <img src="{{ '/assets/images/dr-jekyll-mr-hyde-transformation-poster.jpg' | relative_url }}" alt="The Transformation, an 1880s theatrical poster for Dr. Jekyll and Mr. Hyde" loading="lazy" decoding="async">
+  <figcaption>“The Transformation,” an 1880s theatrical poster for <cite>Dr. Jekyll and Mr. Hyde</cite>. <a href="https://www.loc.gov/item/2014635954/">Library of Congress</a>; no known restrictions on publication.</figcaption>
+</figure>
 
 Follow [@mike11stevens](https://x.com/mike11stevens)
 
