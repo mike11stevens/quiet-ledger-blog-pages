@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">You miss the asks you do not make</title>
+  <desc id="desc">A whiteboard-style quote card inspired by the classic take the shot joke.</desc>
+  <rect width="1200" height="675" fill="#ffffff"/>
+  <rect x="78" y="68" width="1044" height="538" rx="16" fill="#f6f8fa" stroke="#8c959f" stroke-width="6"/>
+  <rect x="126" y="116" width="948" height="442" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="3"/>
+  <path d="M152 508h890" stroke="#d0d7de" stroke-width="8" stroke-linecap="round"/>
+  <rect x="774" y="518" width="122" height="16" rx="8" fill="#0969da"/>
+  <rect x="912" y="518" width="122" height="16" rx="8" fill="#cf222e"/>
+  <text x="172" y="214" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="58" fill="#0969da">You miss 100% of</text>
+  <text x="172" y="286" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="58" fill="#0969da">the asks you don't make.</text>
+  <text x="630" y="380" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="40" fill="#57606a">- probably not Wayne Gretzky</text>
+  <text x="702" y="440" font-family="'Segoe Print','Comic Sans MS',cursive" font-size="44" fill="#24292f">- definitely adjacent to Michael Scott</text>
+  <text x="170" y="548" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="24" fill="#57606a">A leadership framework, if HR is not looking too closely.</text>
+</svg>

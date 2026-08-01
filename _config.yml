@@ -1,0 +1,46 @@
+title: VAMPIRE WORKDAY
+description: >-
+  Extra ordinary thoughts from my little corner of the universe. Just working
+  for the Weekend kind of sucks.
+url: 'https://mike11stevens.github.io'
+baseurl: '/quiet-ledger-blog-pages'
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: default
+search: 'true'
+permalink: '/:categories/:title/'
+paginate: 5
+paginate_path: '/page:num/'
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-admin
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-paginate
+  - jemoji
+defaults:
+  - scope:
+      path: ''
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      show_date: true
+      share: true
+      related: true
+  - scope:
+      path: ''
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      show_date: true
+jekyll_admin:
+  homepage: posts
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

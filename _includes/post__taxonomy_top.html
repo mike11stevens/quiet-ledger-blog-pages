@@ -1,0 +1,10 @@
+{% assign categories = page.categories | default: empty %}
+
+{% if categories.size > 0 %}
+  <div class="post-taxonomy post-taxonomy--top" aria-label="Post categories">
+    <span class="post-taxonomy__label">Categories</span>
+    {% for category in categories %}
+      <span class="post-taxonomy__pill post-taxonomy__pill--category">{{ category }}</span>
+    {% endfor %}
+  </div>
+{% endif %}

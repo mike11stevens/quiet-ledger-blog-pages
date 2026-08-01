@@ -1,0 +1,10 @@
+{% assign tags = page.tags | default: empty %}
+
+{% if tags.size > 0 %}
+  <div class="post-tags-footer" aria-label="Post tags">
+    <span class="post-tags-footer__label">Tags</span>
+    {% for tag in tags %}
+      <span class="post-tags-footer__tag">{{ tag }}</span>
+    {% endfor %}
+  </div>
+{% endif %}

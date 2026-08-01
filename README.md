@@ -1,5 +1,12 @@
-# Quiet Ledger
+# VAMPIRE WORKDAY
 
-Static GitHub Pages version of the Quiet Ledger blog.
+A Minimal Mistakes Jekyll blog styled to resemble GitHub's default light theme.
 
-This edition keeps the reader-facing blog, post pages, admin appearance controls, profile settings, and sign-in/sign-out UI entirely in the browser using local storage.
+Run it locally with:
+
+```sh
+bundle install
+bundle exec jekyll serve
+```
+
+Open `http://localhost:4000/admin/` to manage posts with Jekyll Admin.
