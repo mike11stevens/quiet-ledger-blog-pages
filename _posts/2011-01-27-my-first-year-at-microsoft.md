@@ -3,7 +3,8 @@ title: "My First Year at Microsoft: From Fan of the Company to Trusted Advisor"
 date: 2011-01-27 00:00:00 -0500
 excerpt: "My first year at Microsoft taught me that expertise isn't about having every answer. It's about knowing how to find the right people and ask better questions."
 header:
-  image: /assets/images/microsoft-first-year-badge.png
+  image: /assets/images/microsoft-first-year-office-campus.webp
+  teaser: /assets/images/microsoft-first-year-office-campus.webp
 tags:
   - microsoft
   - career
@@ -17,6 +18,8 @@ One year ago today, on January 27, 2010, I walked through the doors of Microsoft
 For my adult life—and much of my adolescence—[Microsoft](https://www.microsoft.com/en-us/about) had been the company I hoped I might someday work for.
 
 Thanks to my engineer and technology-curious father, I grew up with access to computers from an early age. I spent the 1980s and early 1990s building PCs, scouring computer magazines, connecting to bulletin board systems over a modem, learning to code, building crude HTML pages, and generally meandering through any technology I could get my hands on. What a ride(!)
+
+![Bill Gates seated at a personal computer in the 1980s]({{ '/assets/images/bill-gates-personal-computer-1980s.webp' | relative_url }}){: .align-center}
 
 Like many IT professionals, I had built solutions on Microsoft technologies, [earned certifications](https://learn.microsoft.com/en-us/credentials/), followed product releases, and imagined what it would be like to work alongside the people behind the products I used every day. I looked forward to Windows releases and the arrival of my monthly [TechNet](https://learn.microsoft.com/en-us/previous-versions/) subscription, packed with new products to test. I hung on every Microsoft news story from Mary Jo Foley.
 
@@ -58,6 +61,8 @@ In hindsight, that slower start was doing something important. It was teaching m
 
 Before joining Microsoft, I assumed the most successful people around me would be the ones who knew everything.
 
+![Clark Kent revealing his Superman uniform beneath a business suit]({{ '/assets/images/superman-clark-kent-expert-metaphor.webp' | relative_url }}){: .align-center}
+
 The technical experts.
 
 The seasoned consultants.
@@ -67,6 +72,8 @@ The engineers who could immediately diagnose a problem and prescribe the perfect
 Then I started working with customers.
 
 Almost immediately, I found myself involved in situations that stretched beyond my experience level: new technologies, complex enterprise environments, and problems that didn't have obvious answers. Rather than having everything figured out, I found myself reaching out to experienced engineers, specialists, and peers to learn faster and validate my thinking.
+
+![Captain Kirk surrounded by tribbles with the caption “Overwhelmed?”]({{ '/assets/images/star-trek-tribbles-overwhelmed.webp' | relative_url }}){: .align-center}
 
 One exchange from late this year, over [Office Communicator](https://learn.microsoft.com/en-us/previous-versions/office/), stuck with me:
 
@@ -132,6 +139,8 @@ The most effective people I've worked with aren't necessarily the people with al
 
 They're the people who know how to connect expertise to problems.
 
+![A team of DC superheroes working together]({{ '/assets/images/dc-superheroes-connected-expertise.webp' | relative_url }}){: .align-center}
+
 ## Learning to Ask Better Questions
 
 At the beginning of the year, I thought growth came from accumulating answers.
@@ -171,9 +180,11 @@ Every difficult issue exposed me to people with different experiences and expert
 
 Every conversation expanded my understanding of both Microsoft and the technologies we support.
 
-Looking back, the most valuable thing I've gained this year may not be technical knowledge.
+Looking back, the most valuable thing I've gained this year may not be technical knowledge—although I drank from all the firehoses at once and am leaps beyond where I started a year ago technically.
 
 It may be relationships.
+
+![A map of Federation space and its interconnected civilizations]({{ '/assets/images/star-trek-federation-space-relationships.webp' | relative_url }}){: .align-center}
 
 The people I've met throughout Microsoft have consistently shared their knowledge, offered guidance, and taken time to help me learn. Many of the lessons I've learned this year came from conversations with people who had already faced the challenges I was encountering for the first time.
 
