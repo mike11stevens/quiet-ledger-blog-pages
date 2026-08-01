@@ -8,12 +8,16 @@ tags:
   - reflection
   - blog
   - social
+image: /assets/images/recovered/newish-blog-modern-dusk.jpg
+header:
+  image: /assets/images/recovered/newish-blog-modern-dusk.jpg
+  teaser: /assets/images/recovered/newish-blog-modern-dusk.jpg
 source_url: https://vampireworkday.com/2023/01/05/newish-blog.html
 archive_url: https://web.archive.org/web/20240724185220/https://vampireworkday.com/2023/01/05/newish-blog.html
 recovered: true
 ---
 
-Follow [@mike11stevens](https://twitter.com/mike11stevens)
+Follow [@mike11stevens](https://x.com/mike11stevens)
 
 <div class="link-card-group">
   <a class="link-card" href="https://x.com/mike11stevens" target="_blank" rel="noopener">

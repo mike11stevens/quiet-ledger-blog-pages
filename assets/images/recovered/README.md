@@ -67,3 +67,17 @@ Original archived image references:
 - https://web.archive.org/web/20240724173137im_/https://vampireworkday.com/assets/images/your_limit.png
 
 The xkcd image source is https://xkcd.com/1954/ and is licensed under Creative Commons Attribution-NonCommercial 2.5.
+
+## New-ish Blog
+
+Local replacement added:
+
+- newish-blog-modern-dusk.jpg
+
+Original archived image reference:
+
+- https://vampireworkday.com/assets/images/newish_1200x400.png
+
+The replacement is Carol M. Highsmith's photograph of the Modern Art Museum of Fort Worth at dusk, from the Library of Congress collection. It is in the public domain.
+
+- https://commons.wikimedia.org/wiki/File:Dusk_view_of_the_Modern_Art_Museum_of_Fort_Worth,_Texas,_known_locally_as_simply_%22The_Modern%22_LCCN2014632780.tif
