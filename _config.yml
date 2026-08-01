@@ -2,8 +2,8 @@ title: VAMPIRE WORKDAY
 description: >-
   Extra ordinary thoughts from my little corner of the universe. Just working
   for the Weekend kind of sucks.
-url: 'https://mike11stevens.github.io'
-baseurl: '/vampireworkday'
+url: 'https://vampireworkday.com'
+baseurl: ''
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: default
 search: 'true'
