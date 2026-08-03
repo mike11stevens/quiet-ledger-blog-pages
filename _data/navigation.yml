@@ -3,3 +3,6 @@ main:
     url: /
   - title: "About"
     url: /about/
+  - title: "the Weekend"
+    url: https://www.vampireweekend.com/
+    target: _blank
