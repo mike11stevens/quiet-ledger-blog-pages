@@ -1,10 +1,10 @@
 ---
-title: "Five Years In: The Crystal, The Move, and the Questions That Matter More"
-date: 2015-02-01 00:00:00 +0100
-excerpt: "Five years after joining Microsoft, I've learned that growth is less about accumulating expertise and more about expanding perspective."
+title: "Five Years at Microsoft"
+date: 2015-01-31 00:00:00 -0500
+excerpt: "At my five-year mark at Microsoft, growth feels less like accumulating expertise and more like expanding perspective."
 header:
-  image: /assets/images/microsoft-five-year-crystal.webp
-  teaser: /assets/images/microsoft-five-year-crystal.webp
+  image: /assets/images/microsoft-first-year-office-campus.webp
+  teaser: /assets/images/microsoft-first-year-office-campus.webp
 tags:
   - microsoft
   - career
@@ -16,7 +16,7 @@ tags:
   - usafe
 ---
 
-> *Five years after joining Microsoft, I realized the most valuable lessons weren't technical. They came from moving our family to Germany, supporting USAFE, and discovering that perspective grows faster than expertise.*
+> *Today marks five years since I joined Microsoft. The most valuable lessons haven't been technical. They've come from moving our family to Germany, supporting USAFE, and discovering that perspective grows faster than expertise.*
 
 ---
 
@@ -26,9 +26,9 @@ A badge.
 
 Not because it unlocked buildings, but because it represented an opportunity I wasn't entirely convinced I deserved.
 
-![My original Microsoft employee badge from January 2010]({{ '/assets/images/microsoft-employee-badge-2010.webp' | relative_url }}){: .align-center}
+![My original Microsoft employee badge from January 2010]({{ '/assets/images/microsoft-first-year-badge.webp' | relative_url }}){: .align-center}
 
-*My original Microsoft employee badge from January 2010. It spent the next five years clipped to backpacks, laptop bags, airport lanyards, and eventually accompanied me across the Atlantic to Germany.*
+*My original Microsoft employee badge from January 2010. It has spent five years clipped to backpacks, laptop bags, and airport lanyards—and it eventually accompanied me across the Atlantic to Germany.*
 
 One year later, I wrote **[My First Year at Microsoft](/my-first-year-at-microsoft/)**.
 
@@ -42,7 +42,7 @@ Expertise wasn't about having all the answers.
 
 It was about learning how to find them.
 
-Five years later, I still believe that's true.
+Today, I still believe that's true.
 
 What has changed is my understanding of how much bigger that lesson really is.
 
@@ -55,8 +55,6 @@ A five-year Microsoft anniversary crystal now sits on my desk.
 It's an interesting object. Heavier than I expected. More substantial than I imagined.
 
 For reasons I can't fully explain, it has always reminded me of Superman's Fortress of Solitude.
-
-![My five-year Microsoft anniversary crystal]({{ '/assets/images/microsoft-five-year-crystal.webp' | relative_url }}){: .align-center}
 
 As a kid, I thought the Fortress was where Superman went to find answers.
 
@@ -74,14 +72,14 @@ The four years since have taught me that finding the right answer isn't always t
 
 > ### Microsoft in 2015
 >
-> Looking back, this was an extraordinary time to be inside Microsoft.
+> This is an extraordinary time to be inside Microsoft.
 >
-> - Satya Nadella had been CEO for less than a year.
-> - Windows 10 had not yet been released.
-> - Office 365 was rapidly evolving.
-> - Azure was beginning the transformation that would redefine Microsoft's future.
+> - Satya Nadella has been CEO for less than a year.
+> - Windows 10 has not yet been released.
+> - Office 365 is rapidly evolving.
+> - Azure is beginning a transformation that may redefine Microsoft's future.
 >
-> It's interesting how much the company has changed since then, and how many of the leadership lessons from that period still apply today.
+> The company is changing quickly, and I'm watching those changes reshape how we talk about leadership, learning, and Microsoft's future.
 
 ---
 
@@ -91,7 +89,7 @@ If you had asked me in January 2010 where I'd be five years later, Germany would
 
 Not even the optimistic version of the list.
 
-Yet in early 2013, Wendy and I made the decision to relocate our family to **Ramstein, Germany**, where I would support the **United States Air Forces in Europe (USAFE-AFAFRICA)**.
+Yet in early 2013, Wendy and I made the decision to relocate our family to **Ramstein, Germany**, where I now support the **United States Air Forces in Europe (USAFE-AFAFRICA)**.
 
 The opportunity was exciting, intimidating, and impossible to ignore.
 
@@ -112,7 +110,7 @@ and it will undoubtedly be life changing
 for all of us.
 ```
 
-Reading it today, I'm struck by how little we actually knew.
+Reading it now, I'm struck by how little we actually knew.
 
 We knew we were moving.
 
@@ -144,7 +142,7 @@ The professional and personal workstreams didn't stay separate.
 
 They collided almost every day.
 
-Looking back, I'm amazed we pulled it off.
+Two years into the move, I'm still amazed we pulled it off.
 
 ---
 
@@ -184,9 +182,7 @@ Eventually I realized that every professional accomplishment during those years 
 
 ---
 
-![Working from home with my family in Germany]({{ '/assets/images/working-from-home-germany.webp' | relative_url }}){: .align-center}
-
-*Most evenings looked remarkably ordinary. Customer work, family life, homework, dinner, and planning for tomorrow all happened in the same apartment. Germany eventually stopped feeling like an assignment and started feeling like home.*
+Most evenings look remarkably ordinary. Customer work, family life, homework, dinner, and planning for tomorrow all happen in the same apartment. Germany has stopped feeling like an assignment and started feeling like home.
 
 ---
 
@@ -214,7 +210,7 @@ New expectations.
 
 Even ordinary tasks required patience.
 
-Looking back, the experience felt remarkably similar to joining Microsoft.
+The experience feels remarkably similar to joining Microsoft.
 
 The details were different.
 
@@ -232,15 +228,9 @@ That willingness to become a student again has proven far more durable than any 
 
 ---
 
-![Office 365 Preview in 2013]({{ '/assets/images/office365-preview-2013.webp' | relative_url }}){: .align-center}
-
-*Office 365 Preview, circa 2013. The technology has changed dramatically since this screenshot. Curiosity, fortunately, has a much longer shelf life.*
-
----
-
 > ### Premier Field Engineering
 >
-> At the time, Microsoft's **Premier Field Engineering (PFE)** organization worked directly with enterprise customers to improve operational health, architecture, performance, reliability, and readiness. The organization has evolved considerably since then, but many of the lessons I learned there still shape how I approach engineering today.
+> Microsoft's **Premier Field Engineering (PFE)** organization works directly with enterprise customers to improve operational health, architecture, performance, reliability, and readiness. The lessons I'm learning here shape how I approach engineering every day.
 
 ---
 
@@ -274,9 +264,7 @@ Those lessons have aged much better than any particular technology.
 
 ---
 
-![My 83rd Network Operations Squadron Detachment 4 access badge]({{ '/assets/images/83-nos-det4-badge.webp' | relative_url }}){: .align-center}
-
-*My access badge for the 83rd Network Operations Squadron, Detachment 4, at Ramstein Air Base. Carrying both a Microsoft badge and a USAFE badge wasn't something I could have imagined when I accepted Microsoft's offer in 2010.*
+I now carry two very different badges every day: one that opens Microsoft buildings and another that opens doors at the 83rd Network Operations Squadron, Detachment 4, at Ramstein Air Base. I couldn't have imagined either one when I accepted Microsoft's offer in 2010.
 
 ---
 
@@ -317,7 +305,7 @@ Five years ago, I didn't know that...
 - ...I'd eventually become one of the people new employees turned to for advice.
 - ...the most valuable professional skill I'd develop wouldn't be technical expertise. It would be learning how to keep learning.
 
-Looking back, almost none of the experiences that shaped me most were part of a career plan.
+At this five-year mark, almost none of the experiences that have shaped me most were part of a career plan.
 
 They arrived disguised as opportunities, difficult decisions, inconvenient timing, unexpected conversations, and occasionally a willingness to say "yes" before I felt completely ready.
 
@@ -329,7 +317,7 @@ If my first five years taught me anything, it's that the opportunities worth acc
 
 In my first-year post, I wrote about learning how to find answers.
 
-Five years later, I still believe that was one of the most important lessons of my career.
+Now, I still believe that is one of the most important lessons of my career.
 
 What I didn't understand then was that experience changes the questions.
 
@@ -337,13 +325,11 @@ Five years ago I was asking whether I belonged at Microsoft.
 
 Today I'm more interested in whether I'm continuing to grow, whether I'm helping other people grow, and whether our family is becoming the kind of people we hoped we would be.
 
-![My five-year Microsoft anniversary crystal]({{ '/assets/images/microsoft-five-year-crystal.webp' | relative_url }}){: .align-center}
-
 The badge represented an opportunity.
 
 The crystal represents the journey that followed.
 
-Looking back, I'm grateful for both.
+Today, I'm grateful for both.
 
 ---
 
@@ -351,7 +337,7 @@ Looking back, I'm grateful for both.
 
 If this chapter of the journey resonates with you, you may also enjoy:
 
-- **[My First Year at Microsoft](/my-first-year-at-microsoft/)** — Looking back on joining Microsoft and learning what it really meant to become part of the company.
+- **[My First Year at Microsoft](/my-first-year-at-microsoft/)** — Joining Microsoft and learning what it really means to become part of the company.
 - **Why Germany?** *(future post)* — Why our family chose an international assignment and everything that went into the decision.
 - **Living in Germany** *(future post)* — Everyday life, travel, and raising a family overseas.
 - **Premier Field Engineering** *(future post)* — Lessons from working alongside customers and some of Microsoft's best engineers.
