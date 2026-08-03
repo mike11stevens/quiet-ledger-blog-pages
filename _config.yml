@@ -19,15 +19,19 @@ author:
     - label: Email
       icon: fas fa-fw fa-envelope-square
       url: mailto:blog@vampireworkday.com
+      target: _blank
     - label: GitHub
       icon: fab fa-fw fa-github
       url: https://github.com/mike11stevens
+      target: _blank
     - label: LinkedIn
       icon: fab fa-fw fa-linkedin
       url: https://linkedin.com/in/mikestevens
+      target: _blank
     - label: Twitter
       icon: fab fa-fw fa-twitter-square
       url: https://twitter.com/mike11stevens
+      target: _blank
 plugins:
   - jekyll-include-cache
   - jekyll-feed
