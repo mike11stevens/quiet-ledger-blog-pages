@@ -341,6 +341,11 @@ The crystal represents the journey that followed.
 
 Today, I'm grateful for both.
 
+<figure class="image-figure">
+  <img src="{{ '/assets/images/microsoft-five-year-family-germany.webp' | relative_url }}" alt="Mike and Wendy Stevens with their children during their family's time in Germany" loading="lazy" decoding="async">
+  <figcaption>Our family in Germany, where a career move became a shared adventure.</figcaption>
+</figure>
+
 ---
 
 ## Further Reading
