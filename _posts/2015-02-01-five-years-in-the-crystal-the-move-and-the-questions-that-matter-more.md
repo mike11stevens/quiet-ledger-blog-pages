@@ -228,6 +228,10 @@ Be willing to admit what you don't know.
 
 That willingness to become a student again has proven far more durable than any particular technical skill.
 
+![My Office 365 Preview site in 2013]({{ '/assets/images/office365-preview-2013.png' | relative_url }}){: .align-center}
+
+*Office 365 Preview, circa 2013—a reminder of how quickly the technology changes and how durable curiosity can be.*
+
 ---
 
 > ### Premier Field Engineering
