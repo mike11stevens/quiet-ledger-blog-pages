@@ -2,6 +2,7 @@
 title: "24 Hours in a day"
 date: 2017-10-03 09:00:00 -0400
 excerpt: "A short reminder that everybody gets the same 24 hours, but not everything gets to be a priority."
+redirect_from: /twenty-four-hours-in-a-day/
 tags:
   - career
   - priorities

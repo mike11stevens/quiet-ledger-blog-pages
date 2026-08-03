@@ -2,7 +2,7 @@ main:
   - title: "Home"
     url: /
   - title: "About"
-    url: /about/
-  - title: "Weekend"
+    url: /pages/about/
+  - title: "Vampire Weekend"
     url: https://www.vampireweekend.com/
     target: _blank

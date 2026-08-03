@@ -1,0 +1,12 @@
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-admin
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-paginate
+  - jemoji
+
+jekyll_admin:
+  homepage: posts

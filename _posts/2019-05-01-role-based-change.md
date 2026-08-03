@@ -2,6 +2,7 @@
 title: "Role-based change"
 date: 2019-05-01 00:00:00 +0000
 excerpt: "A move into Microsoft Worldwide Learning, role-based Azure training, and the shift from know-it-all to learn-it-all."
+redirect_from: /career/role-based-change/
 categories:
   - Career
 tags:

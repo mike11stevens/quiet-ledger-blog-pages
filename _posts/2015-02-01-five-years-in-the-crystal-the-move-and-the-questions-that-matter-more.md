@@ -2,6 +2,7 @@
 title: "Five Years at Microsoft"
 date: 2015-01-31 00:00:00 -0500
 excerpt: "At my five-year mark at Microsoft, growth feels less like accumulating expertise and more like expanding perspective."
+redirect_from: /five-years-in-the-crystal-the-move-and-the-questions-that-matter-more/
 header:
   image: /assets/images/microsoft-five-year-crystal.png
   teaser: /assets/images/microsoft-five-year-crystal.png
@@ -30,7 +31,7 @@ Not because it unlocked buildings, but because it represented an opportunity I w
 
 *My original Microsoft employee badge from January 2010. It has spent five years clipped to backpacks, laptop bags, and airport lanyards—and it eventually accompanied me across the Atlantic to Germany.*
 
-One year later, I wrote **[My First Year at Microsoft](/my-first-year-at-microsoft/)**.
+One year later, I wrote **[My First Year at Microsoft](/posts/my-first-year-at-microsoft/)**.
 
 At the time, I was still trying to convince myself that someone in Human Resources hadn't accidentally handed a badge to the wrong person.
 
@@ -352,7 +353,7 @@ Today, I'm grateful for both.
 
 If this chapter of the journey resonates with you, you may also enjoy:
 
-- **[My First Year at Microsoft](/my-first-year-at-microsoft/)** — Joining Microsoft and learning what it really means to become part of the company.
+- **[My First Year at Microsoft](/posts/my-first-year-at-microsoft/)** — Joining Microsoft and learning what it really means to become part of the company.
 - **Why Germany?** *(future post)* — Why our family chose an international assignment and everything that went into the decision.
 - **Living in Germany** *(future post)* — Everyday life, travel, and raising a family overseas.
 - **Premier Field Engineering** *(future post)* — Lessons from working alongside customers and some of Microsoft's best engineers.

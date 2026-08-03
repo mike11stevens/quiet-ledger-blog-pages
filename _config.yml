@@ -1,13 +1,13 @@
-title: "V A M P I R E\u00A0\u00A0\u00A0W O R K D A Y"
+title: Vampire Workday
 description: >-
-  Extra ordinary thoughts from my little corner of the universe. Just working
-  for the Weekend kind of sucks.
+  My Extra Ordinary thoughts on technology, learning, work, and building a life
+  that is not merely waiting for the weekend... that would suck.
 url: 'https://vampireworkday.com'
 baseurl: ''
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: default
 search: 'true'
-permalink: '/:categories/:title/'
+permalink: '/posts/:title/'
 paginate: 5
 paginate_path: '/page:num/'
 author:
@@ -35,7 +35,6 @@ author:
 plugins:
   - jekyll-include-cache
   - jekyll-feed
-  - jekyll-admin
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
@@ -59,8 +58,6 @@ defaults:
       layout: single
       author_profile: true
       show_date: true
-jekyll_admin:
-  homepage: posts
 exclude:
   - Gemfile
   - Gemfile.lock

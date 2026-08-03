@@ -1,7 +1,8 @@
 ---
 layout: single
 title: About
-permalink: /about/
+permalink: /pages/about/
+redirect_from: /about/
 excerpt: "About Mike Stevens—technology, learning, family, and everything in between."
 hide_page_header: true
 ---
@@ -20,7 +21,7 @@ Marriage, parenthood, and moving across an ocean (and back) have shaped me as mu
 
 I’m still learning about technology, people, work, and whatever comes next. This site is where some of that thinking ends up.
 
-For a longer and slightly less polished introduction and exposé on just how “extra ordinary” I am, read [Hi, my name is Mike](/personal/hi-my-name-is-mike/).
+For a longer and slightly less polished introduction and exposé on just how “extra ordinary” I am, read [Hi, my name is Mike](/posts/hi-my-name-is-mike/).
 
 <div class="social-button-group">
   <a class="social-button social-button--linkedin" href="https://linkedin.com/in/mikestevens" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">

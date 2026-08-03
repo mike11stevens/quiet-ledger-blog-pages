@@ -3,6 +3,7 @@ title: "The Boundaries That Gave Me My Life Back"
 date: 2023-03-16 00:00:00 +0000
 last_modified_at: 2026-08-03 00:00:00 -0400
 excerpt: "I was close to burnout. Ancient advice helped, but four practical changes made the real difference."
+redirect_from: /boundaries/
 tags:
   - reflection
   - work
