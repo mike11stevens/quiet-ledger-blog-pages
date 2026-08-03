@@ -94,10 +94,13 @@ The organization did not suddenly become calm. The difference was that its chaos
 
 I still believe in ambitious work. I just no longer believe ambition requires permanent availability. Sustainable impact needs rest, focus, and priorities that can survive contact with a crowded inbox.
 
-<blockquote class="boundary-pullquote boundary-pullquote--closing">
-  <p>Working for a chaotic leader can feel like Whac-A-Mole with random tasks. Boundaries are how you stop handing over the mallet—and your whole day.</p>
-  <cite>— Mike Stevens</cite>
-</blockquote>
+<div class="boundary-tweet">
+  <blockquote class="twitter-tweet" data-dnt="true">
+    <p lang="en" dir="ltr">working for a chaotic leader is like playing a game of Whack-a-Mole, but with random tasks instead of moles</p>
+    &mdash; Mike Stevens (@mike11stevens) <a href="https://x.com/mike11stevens/status/1636510496210681858?ref_src=twsrc%5Etfw">March 16, 2023</a>
+  </blockquote>
+</div>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 If work has expanded into every open hour, start with one visible line: a signed-off calendar block, a deleted app, a meeting-free morning. The first boundary does not have to fix the system. It only has to return one choice to you.
 
