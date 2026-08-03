@@ -16,7 +16,7 @@ I’m a husband, father, and lifelong technology enthusiast with more than two d
 
 I joined Microsoft in 2010 and have spent the years since supporting customers, helping people build new skills, and learning that good work is rarely about having every answer. It is about staying curious, asking better questions, and creating clarity when things get complicated.
 
-Marriage, parenthood, and moving across and ocean (and back) have shaped me as much as any job. They changed how I think about ambition, success, and the life the work is supposed to support.
+Marriage, parenthood, and moving across an ocean (and back) have shaped me as much as any job. They changed how I think about ambition, success, and the life the work is supposed to support.
 
 I’m still learning about technology, people, work, and whatever comes next. This site is where some of that thinking ends up.
 
