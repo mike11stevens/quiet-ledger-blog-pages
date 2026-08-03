@@ -31,6 +31,7 @@ author_profile: true
 
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
+        {% unless page.hide_page_header %}
         <header class="{% if page.header.image %}page-header page-header--image{% else %}page-header{% endif %}">
           {% if page.header.image %}
             <div class="page-header__hero" style="background-image: url('{{ page.header.image | relative_url }}');">
@@ -54,6 +55,7 @@ author_profile: true
             {% include post__taxonomy_top.html locale=locale %}
           {% endif %}
         </header>
+        {% endunless %}
       {% endunless %}
 
       <section class="page__content e-content" itemprop="text">
