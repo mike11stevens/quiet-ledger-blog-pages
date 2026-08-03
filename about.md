@@ -7,10 +7,6 @@ excerpt: "About Mike Stevens—technology, learning, family, and everything in b
 
 Hi, I’m Mike Stevens.
 
-<figure class="about-portrait">
-  <img src="{{ '/assets/images/mike-stevens-pizza.webp' | relative_url }}" alt="Mike Stevens sitting behind a large pepperoni pizza" loading="eager" decoding="async">
-</figure>
-
 I’m a husband, father, and lifelong technology enthusiast with more than two decades in IT. What began with building PCs, dialing into bulletin board systems, and making crude web pages became a career in consulting, enterprise services, cloud technology, learning, and technical training.
 
 I joined Microsoft in 2010 and have spent the years since supporting customers, helping people build new skills, and learning that good work is rarely about having every answer. It is about staying curious, asking better questions, and creating clarity when things get complicated.
@@ -46,3 +42,7 @@ If something here sparks a thought, [send me an email](mailto:blog@vampireworkda
     <span class="link-card__thumb link-card__thumb--github"><i class="fab fa-github" aria-hidden="true"></i></span>
   </a>
 </div>
+
+<figure class="about-portrait">
+  <img src="{{ '/assets/images/mike-stevens-pizza.webp' | relative_url }}" alt="Mike Stevens sitting behind a large pepperoni pizza" loading="lazy" decoding="async">
+</figure>
