@@ -55,7 +55,6 @@ a:hover {
 
 .greedy-nav .site-title {
   font-weight: 600;
-  white-space: pre-wrap;
 }
 
 .greedy-nav .visible-links a::before {
@@ -492,17 +491,20 @@ a:hover {
 
 .link-card-group--social {
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  margin-top: 14px;
+  margin-bottom: 0;
 }
 
 .link-card.link-card--social {
-  grid-template-columns: minmax(0, 1fr) 48px;
-  min-height: 76px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 64px minmax(0, 1fr);
+  min-height: 142px;
 }
 
 .link-card--social .link-card__body {
+  align-items: center;
   gap: 5px;
-  padding: 12px 14px;
+  padding: 14px;
+  text-align: center;
 }
 
 .link-card--social .link-card__domain {
@@ -513,7 +515,21 @@ a:hover {
 
 .link-card--social .link-card__thumb {
   font-size: 1.15rem;
-  min-height: 0;
+  min-height: 64px;
+  order: -1;
+}
+
+.about-portrait {
+  margin: 16px auto 24px;
+  max-width: 440px;
+}
+
+.about-portrait img {
+  border: 1px solid var(--gh-border-muted);
+  border-radius: 6px;
+  display: block;
+  height: auto;
+  width: 100%;
 }
 
 .link-card__thumb--linkedin {
@@ -712,12 +728,13 @@ a:hover {
   }
 
   .link-card.link-card--social {
-    grid-template-columns: minmax(0, 1fr) 48px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 64px minmax(0, 1fr);
   }
 
   .link-card--social .link-card__thumb {
-    min-height: 0;
-    order: 0;
+    min-height: 64px;
+    order: -1;
   }
 
   .page-header--image {
