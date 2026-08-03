@@ -2,6 +2,7 @@
 title: "Hi, my name is Mike."
 date: 2017-03-01 09:00:00 -0500
 excerpt: "A short inventory of just how aggressively average one person can be, with receipts."
+redirect_from: /personal/hi-my-name-is-mike/
 categories:
   - Personal
 tags:

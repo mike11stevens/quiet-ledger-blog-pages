@@ -2,6 +2,7 @@
 title: "\"Ask not, Have not\""
 date: 2016-08-23 00:00:00 +0000
 excerpt: "A reminder to stop rejecting yourself before anyone else gets the chance."
+redirect_from: /ask-not-have-not/
 tags:
   - career
   - reflection

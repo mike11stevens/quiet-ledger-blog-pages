@@ -2,6 +2,7 @@
 title: "New-ish Blog?"
 date: 2023-01-05 00:00:00 +0000
 excerpt: "After WordPress, Ghost, and Medium, the blog is becoming a collection of plain files built by Jekyll and published through GitHub Pages."
+redirect_from: /personal/newish-blog/
 categories:
   - Personal
 tags:

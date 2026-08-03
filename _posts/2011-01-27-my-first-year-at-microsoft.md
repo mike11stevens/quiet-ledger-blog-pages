@@ -2,6 +2,7 @@
 title: "My First Year at Microsoft"
 date: 2011-01-27 00:00:00 -0500
 excerpt: "My first year at Microsoft taught me that expertise isn't about having every answer. It's about knowing how to find the right people and ask better questions."
+redirect_from: /my-first-year-at-microsoft/
 header:
   image: /assets/images/microsoft-first-year-office-campus.webp
   teaser: /assets/images/microsoft-first-year-office-campus.webp

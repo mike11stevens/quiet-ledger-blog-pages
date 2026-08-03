@@ -55,6 +55,8 @@ a:hover {
 
 .greedy-nav .site-title {
   font-weight: 600;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
 }
 
 .greedy-nav .visible-links a::before {
@@ -696,6 +698,10 @@ a:hover {
 @media (max-width: 768px) {
   .masthead__inner-wrap {
     padding: 12px 16px;
+  }
+
+  .greedy-nav .site-title {
+    letter-spacing: 0.12em;
   }
 
   .page__inner-wrap,
