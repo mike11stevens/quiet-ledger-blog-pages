@@ -15,7 +15,7 @@ tags:
 
 One year ago today, on January 27, 2010, I walked through the doors of Microsoft for the first time as an employee—a "blue badge" FTE.
 
-![Mike Stevens's privacy-safe Microsoft employee badge]({{ '/assets/images/microsoft-first-year-badge.webp' | relative_url }}){: .align-center}
+![Mike Stevens's restored Microsoft employee badge]({{ '/assets/images/microsoft-first-year-badge-restored.png' | relative_url }}){: .align-center}
 
 For my adult life—and much of my adolescence—[Microsoft](https://www.microsoft.com/en-us/about) had been the company I hoped I might someday work for.
 
