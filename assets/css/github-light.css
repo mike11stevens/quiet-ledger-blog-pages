@@ -843,10 +843,20 @@ a:hover {
   margin: 0;
 }
 
-.boundary-pullquote--closing {
-  background: #fff8e6;
-  border-radius: 10px;
-  padding: 1.75rem;
+.boundary-tweet {
+  display: flex;
+  justify-content: center;
+  margin: 2.5rem auto;
+  min-height: 220px;
+}
+
+.boundary-tweet .twitter-tweet {
+  border: 1px solid var(--gh-border);
+  border-radius: 12px;
+  margin: 0 !important;
+  max-width: 550px;
+  padding: 1.25rem;
+  width: 100%;
 }
 
 @media (max-width: 640px) {
@@ -870,8 +880,8 @@ a:hover {
     padding: 0 0.4rem;
   }
 
-  .boundary-pullquote--closing {
-    padding: 1.35rem;
+  .boundary-tweet {
+    min-height: 250px;
   }
 }
 
