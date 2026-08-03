@@ -55,6 +55,11 @@ Marcus Aurelius offered the companion idea: circumstances matter, but our judgme
 
 The point was not to tolerate an unhealthy situation with a marble expression. It was to stop surrendering the choices that were still mine. I could not make the organization less chaotic overnight. I could decide when I was available, what lived on my phone, and where my attention went first.
 
+<figure class="boundary-photo">
+  <img src="{{ '/assets/images/boundaries-balance-stones.webp' | relative_url }}" alt="A small stack of colorful stones balanced in a tabletop sand garden">
+  <figcaption>A small reminder on my desk: balance is something I have to keep rebuilding.</figcaption>
+</figure>
+
 ## Turning reflection into rules
 
 Insight was not going to change my calendar by itself, so I translated it into four visible commitments. Then I sent them to my managers. That mattered: private intentions are easy to bend; shared expectations are harder to quietly abandon.
