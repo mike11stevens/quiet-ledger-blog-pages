@@ -490,6 +490,44 @@ a:hover {
   color: var(--gh-muted);
 }
 
+.link-card-group--social {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 14px;
+}
+
+.link-card.link-card--social {
+  grid-template-columns: minmax(0, 1fr) 48px;
+  min-height: 76px;
+}
+
+.link-card--social .link-card__body {
+  gap: 5px;
+  padding: 12px 14px;
+}
+
+.link-card--social .link-card__domain {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.link-card--social .link-card__thumb {
+  font-size: 1.15rem;
+  min-height: 0;
+}
+
+.link-card__thumb--linkedin {
+  background: #0a66c2;
+}
+
+.link-card__thumb--twitter {
+  background: #1d9bf0;
+}
+
+.link-card__thumb--github {
+  background: #24292f;
+}
+
 .video-embed {
   aspect-ratio: 16 / 9;
   background: var(--gh-canvas-subtle);
@@ -667,6 +705,19 @@ a:hover {
   .link-card__thumb {
     min-height: 64px;
     order: -1;
+  }
+
+  .link-card-group--social {
+    grid-template-columns: 1fr;
+  }
+
+  .link-card.link-card--social {
+    grid-template-columns: minmax(0, 1fr) 48px;
+  }
+
+  .link-card--social .link-card__thumb {
+    min-height: 0;
+    order: 0;
   }
 
   .page-header--image {
