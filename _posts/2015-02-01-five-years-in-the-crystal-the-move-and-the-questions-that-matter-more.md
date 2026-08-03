@@ -3,8 +3,8 @@ title: "Five Years at Microsoft"
 date: 2015-01-31 00:00:00 -0500
 excerpt: "At my five-year mark at Microsoft, growth feels less like accumulating expertise and more like expanding perspective."
 header:
-  image: /assets/images/microsoft-first-year-office-campus.webp
-  teaser: /assets/images/microsoft-first-year-office-campus.webp
+  image: /assets/images/microsoft-five-year-crystal.png
+  teaser: /assets/images/microsoft-five-year-crystal.png
 tags:
   - microsoft
   - career
@@ -55,6 +55,8 @@ A five-year Microsoft anniversary crystal now sits on my desk.
 It's an interesting object. Heavier than I expected. More substantial than I imagined.
 
 For reasons I can't fully explain, it has always reminded me of Superman's Fortress of Solitude.
+
+![My five-year Microsoft anniversary crystal]({{ '/assets/images/microsoft-five-year-crystal.png' | relative_url }}){: .align-center}
 
 As a kid, I thought the Fortress was where Superman went to find answers.
 
