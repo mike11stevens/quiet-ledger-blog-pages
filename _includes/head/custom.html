@@ -1,1 +1,3 @@
 <link rel="stylesheet" href="{{ '/assets/css/github-light.css' | relative_url }}">
+{% capture browser_title %}{{ site.title }}{% if page.title and page.title != site.title %} | {{ page.title }}{% endif %}{% endcapture %}
+<script>document.title = {{ browser_title | strip | jsonify }};</script>
