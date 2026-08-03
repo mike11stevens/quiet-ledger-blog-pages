@@ -22,16 +22,14 @@ I’m still learning about technology, people, work, and whatever comes next. Th
 
 For a longer and slightly less polished introduction and exposé on just how “extra ordinary” I am, read [Hi, my name is Mike](/personal/hi-my-name-is-mike/).
 
-If something here sparks a thought, [send me an email](mailto:blog@vampireworkday.com).
-
-<div class="link-card-group link-card-group--social">
-  <a class="link-card link-card--social" href="https://linkedin.com/in/mikestevens" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-    <span class="link-card__thumb link-card__thumb--linkedin"><i class="fab fa-linkedin-in" aria-hidden="true"></i></span>
+<div class="social-button-group">
+  <a class="social-button social-button--linkedin" href="https://linkedin.com/in/mikestevens" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
   </a>
-  <a class="link-card link-card--social" href="https://twitter.com/mike11stevens" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-    <span class="link-card__thumb link-card__thumb--twitter"><i class="fab fa-twitter" aria-hidden="true"></i></span>
+  <a class="social-button social-button--twitter" href="https://twitter.com/mike11stevens" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+    <i class="fab fa-twitter" aria-hidden="true"></i>
   </a>
-  <a class="link-card link-card--social" href="https://github.com/mike11stevens" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-    <span class="link-card__thumb link-card__thumb--github"><i class="fab fa-github" aria-hidden="true"></i></span>
+  <a class="social-button social-button--github" href="https://github.com/mike11stevens" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+    <i class="fab fa-github" aria-hidden="true"></i>
   </a>
 </div>
