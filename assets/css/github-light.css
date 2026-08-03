@@ -55,6 +55,7 @@ a:hover {
 
 .greedy-nav .site-title {
   font-weight: 600;
+  white-space: pre-wrap;
 }
 
 .greedy-nav .visible-links a::before {
