@@ -682,3 +682,196 @@ a:hover {
     padding: 20px 16px;
   }
 }
+
+/* Boundaries post */
+.boundary-post > p:first-child {
+  color: var(--gh-muted);
+  font-size: 1.08rem;
+  line-height: 1.65;
+  margin-bottom: 1.5rem;
+}
+
+.boundary-hero {
+  margin: 1.5rem 0 2.25rem;
+}
+
+.boundary-hero__art {
+  background:
+    radial-gradient(circle at 76% 28%, rgba(255, 196, 117, 0.2), transparent 30%),
+    linear-gradient(135deg, #111827 0%, #1f2937 58%, #3f2d28 100%);
+  border-radius: 12px;
+  color: #fff;
+  min-height: 350px;
+  overflow: hidden;
+  padding: 3.4rem 46% 3rem 3.25rem;
+  position: relative;
+}
+
+.boundary-hero__art::after {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  content: "";
+  inset: 18px;
+  pointer-events: none;
+  position: absolute;
+}
+
+.boundary-hero__art img {
+  bottom: -14%;
+  height: 122%;
+  max-width: none;
+  object-fit: contain;
+  position: absolute;
+  right: 1.5%;
+  width: 48%;
+}
+
+.boundary-hero__art strong {
+  display: block;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  line-height: 1.02;
+  position: relative;
+  z-index: 1;
+}
+
+.boundary-hero__kicker {
+  color: #f4c17e;
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  margin-bottom: 1.3rem;
+  position: relative;
+  z-index: 1;
+}
+
+.boundary-hero figcaption {
+  color: var(--gh-muted);
+  font-size: 0.72rem;
+  line-height: 1.45;
+  margin-top: 0.55rem;
+}
+
+.boundary-post blockquote:not(.boundary-pullquote) {
+  background: #f6f8fa;
+  border: 0;
+  border-radius: 8px;
+  color: var(--gh-fg);
+  margin: 1.4rem 0;
+  padding: 1.35rem 1.5rem 1.15rem;
+  position: relative;
+}
+
+.boundary-post blockquote:not(.boundary-pullquote)::before {
+  color: #9a6700;
+  content: "“";
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 3.5rem;
+  left: 0.7rem;
+  line-height: 1;
+  opacity: 0.42;
+  position: absolute;
+  top: 0.45rem;
+}
+
+.boundary-post blockquote:not(.boundary-pullquote) p {
+  padding-left: 1.1rem;
+}
+
+.boundary-post blockquote cite {
+  color: var(--gh-muted);
+  font-size: 0.78rem;
+  font-style: normal;
+}
+
+.boundary-pullquote {
+  border-left: 0;
+  color: #111827;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.45rem, 3vw, 2rem);
+  line-height: 1.32;
+  margin: 2.5rem 0;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.boundary-pullquote p {
+  margin: 0;
+}
+
+.boundary-pullquote cite {
+  display: block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  margin-top: 0.8rem;
+}
+
+.boundary-rules {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 1.75rem 0 2rem;
+}
+
+.boundary-rules section {
+  background: var(--gh-canvas);
+  border: 1px solid var(--gh-border);
+  border-radius: 8px;
+  padding: 1.25rem;
+}
+
+.boundary-rules span {
+  color: #9a6700;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.boundary-rules h3 {
+  border: 0;
+  font-size: 1rem;
+  margin: 0.45rem 0 0.5rem;
+  padding: 0;
+}
+
+.boundary-rules p {
+  color: var(--gh-muted);
+  font-size: 0.88rem;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.boundary-pullquote--closing {
+  background: #fff8e6;
+  border-radius: 10px;
+  padding: 1.75rem;
+}
+
+@media (max-width: 640px) {
+  .boundary-hero__art {
+    min-height: 410px;
+    padding: 2.5rem 2rem 15rem;
+  }
+
+  .boundary-hero__art img {
+    bottom: -16%;
+    height: 72%;
+    right: 7%;
+    width: 68%;
+  }
+
+  .boundary-rules {
+    grid-template-columns: 1fr;
+  }
+
+  .boundary-pullquote {
+    padding: 0 0.4rem;
+  }
+
+  .boundary-pullquote--closing {
+    padding: 1.35rem;
+  }
+}
+

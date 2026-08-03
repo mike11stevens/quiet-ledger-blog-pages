@@ -1,69 +1,105 @@
 ---
-title: "My NEW Journey Guided by OLD Wisdom"
+title: "The Boundaries That Gave Me My Life Back"
 date: 2023-03-16 00:00:00 +0000
+last_modified_at: 2026-08-03 00:00:00 -0400
+excerpt: "I was close to burnout. Ancient advice helped, but four practical changes made the real difference."
 tags:
   - reflection
+  - work
+  - boundaries
+header:
+  teaser: /assets/images/seneca-public-domain.webp
 source_url: https://vampireworkday.com/2023/03/16/Boundaries.html
 archive_url: https://web.archive.org/web/20240724190731/https://vampireworkday.com/2023/03/16/Boundaries.html
 recovered: true
 ---
 
-## The power of priorities and boundaries
+<div class="boundary-post" markdown="1">
 
-Working in a chaotic organization can be both mentally and physically taxing. The constant barrage of random tasking from multiple levels of the organization, coupled with rapid iteration, ambiguity, and the expectation that work is its own reward can leave individuals feeling overwhelmed and burnt out.
+*In late 2022, work had expanded to fill every available space in my life. I did not need a better productivity system. I needed a line that work was no longer allowed to cross.*
 
-## Looking back
+<figure class="boundary-hero">
+  <div class="boundary-hero__art">
+    <span class="boundary-hero__kicker">OLD WISDOM / NEW RULES</span>
+    <strong>Protect the life<br>the work is meant to support.</strong>
+    <img src="{{ '/assets/images/seneca-public-domain.webp' | relative_url }}" alt="Marble bust of the Roman philosopher Seneca">
+  </div>
+  <figcaption>Seneca kept pointing me back to the value of time. Bust photographed by <a href="https://commons.wikimedia.org/wiki/File:Seneca_no_background.png">Wikimedia Commons contributor Eunostos</a>; public domain.</figcaption>
+</figure>
 
-I know this feeling all too well. In November 2022, I found myself on the brink of burnout. I had to take a step back and reevaluate my priorities. It wasn't just impacting me; it was impacting the quality and quantity of time I spent with my family; negative impact on all of my relationships.
+## When work followed me home
 
-## Looking way back
+Chaotic organizations create their own weather: priorities change without warning, requests arrive from every direction, and everything feels urgent because no one has agreed on what matters most. Add rapid iteration, ambiguity, and the unspoken idea that work should be its own reward, and even resilient people eventually run out of room.
 
-Like to the Greeks and Romans... I looked to the Stoics for some insight. These quotes highlight the importance of investing our time wisely, controlling our reactions to external circumstances, and being content with what we have. In a chaotic work environment, it can be easy to lose sight of these principles, but they can be incredibly powerful tools for maintaining a sense of inner peace and balance amidst the chaos.
+By November 2022, I was close to burnout. The clearest warning was not how I felt at my desk. It was what happened after I left it. Work was reducing both the quality and the quantity of time I gave my family, and that strain was showing up in every relationship that mattered.
 
-> "It is not that we have a short space of time, but that we waste much of it. Life is long enough, and it has been given in sufficiently generous measure to allow the accomplishment of the very greatest things if the whole of it is well invested." - Seneca
+I had treated availability as commitment and responsiveness as impact. Neither was true. Being reachable all the time mostly meant that work could make the first claim on any hour it wanted.
 
-> "If you are distressed by anything external, the pain is not due to the thing itself but to your own estimate of it; and this you have the power to revoke at any moment." - Marcus Aurelius
+<blockquote class="boundary-pullquote">
+  <p>A boundary is not a declaration that work does not matter. It is a decision about what else matters, too.</p>
+</blockquote>
 
-> "You could leave life right now. Let that determine what you do and say and think." - Marcus Aurelius
+## Old wisdom, applied carefully
 
-> "What is the point of having long life if we do not use it to prioritize what is important?" - Musonius Rufus
+I went looking for perspective and found it in the Stoics. Not because a Roman philosopher could solve a modern calendar, but because they were unusually direct about attention, judgment, and the cost of spending a life accidentally.
 
-> "You cannot pursue two goals at once. Do not try to do everything at once. Be selective with your battles." - Zeno of Citium
-
-> "If you want to improve, be content to be thought foolish and stupid." - Epictetus
-
-## Making it real
-
-After some reflection, I realized that I needed to establish healthier boundaries in my life to regain some sanity. So, I took action.
-
-> Whether what you're going through is your fault or your problem doesn't matter, because it's yours to deal with right now.
+> “We do not have a very short time assigned to us, but we lose a great deal of it.”
 >
-> - Ryan Holiday, March 14, 2023
+> <cite>Seneca, *[On the Shortness of Life](https://www.gutenberg.org/files/64576/64576-h/64576-h.htm)*, I</cite>
 
-I identified the steps I needed to take to get back on track and then summarized them in an email to my direct managers:
+Marcus Aurelius offered the companion idea: circumstances matter, but our judgment of them is one part we can still work on.
 
-> I've recently made some relatively major adjustments to my approach to working hours in an effort to improve. I perceive it will have an impact in my availability and response times, so I want to over-share in case there is any concern that something else is going on. I'm fine, just need some more healthy boundaries to sustain.
+> “Things do not touch the soul, for they are external ... our perturbations come only from the opinion which is within.”
 >
-> Working Hours - changed my working hours to 7:30 AM - 6:00 PM Mon-Fri in Outlook and set a recurring "Out of Office" block for the opposite
->
-> 24/7 access - I've removed Outlook and Teams clients from my mobile phone
->
-> Focus Time - made my peace with "No meeting Fridays"... switching my focus on keeping Mondays open for work to "catch up" from previous week, plan out work and priorities for upcoming week, and generally remember what work is like after a (hopefully) disconnected weekend(!)
->
-> Year End Downtime - I'm planning on taking 1 Dec - 15 Jan off at slow year end time to 'recharge'. Currently working on coverage plan with my team to make it as smooth as possible. I'm hopeful that it'll be an opportunity to reshape daily habits and get some quality 'think time'
->
-> I'll be looking to you to keep working on stable top 3-5 priority list ... and for coaching on how to delegate workloads out to the team. As we've discussed, this is an immediate improvement area for me to scale impact and to provide the team more opportunities to grow and develop.
->
-> Thanks for the continued support and guidance,
->
-> Mike
+> <cite>Marcus Aurelius, *[Meditations](https://classics.mit.edu/Antoninus/meditations.4.four.html)*, Book IV</cite>
 
-## Results so far
+The point was not to tolerate an unhealthy situation with a marble expression. It was to stop surrendering the choices that were still mine. I could not make the organization less chaotic overnight. I could decide when I was available, what lived on my phone, and where my attention went first.
 
-These changes were not easy, but they were necessary. Since then, my life at work and home has improved significantly. By slowing down and reevaluating my guardrails and boundaries, I was able to reprioritize my time and approach to work/life balance.
+## Turning reflection into rules
 
-In a chaotic work environment, it can be easy to feel like you have no control. But, as the Stoics believed, we have the power to control our reactions to external circumstances. By establishing healthy boundaries, we can take control of our lives and thrive, even in the most chaotic of environments. It has been life changing so far for me.
+Insight was not going to change my calendar by itself, so I translated it into four visible commitments. Then I sent them to my managers. That mattered: private intentions are easy to bend; shared expectations are harder to quietly abandon.
 
-> working for a chaotic leader is like playing a game of Whack-a-Mole, but with random tasks instead of moles
->
-> - Mike Stevens, March 16, 2023
+<div class="boundary-rules">
+  <section>
+    <span>01</span>
+    <h3>Working hours</h3>
+    <p>I set my workday to 7:30 a.m.–6:00 p.m., Monday through Friday, and blocked the opposite hours as out of office.</p>
+  </section>
+  <section>
+    <span>02</span>
+    <h3>No pocket office</h3>
+    <p>I removed Outlook and Teams from my phone. If I wanted to work, I had to make a deliberate choice to open a computer.</p>
+  </section>
+  <section>
+    <span>03</span>
+    <h3>Protected focus</h3>
+    <p>I kept Mondays open to absorb the previous week, choose priorities, and begin the new one with intention instead of reaction.</p>
+  </section>
+  <section>
+    <span>04</span>
+    <h3>Real recovery</h3>
+    <p>I planned an extended year-end break, built a coverage plan with my team, and asked for help keeping a stable top-three-to-five priority list.</p>
+  </section>
+</div>
+
+There was another boundary hidden inside that final point: delegation. I needed coaching on how to move work to the team—not merely to reduce my load, but to create room for other people to grow. “I will carry everything” can look like dedication while quietly becoming a bottleneck.
+
+## What changed
+
+The changes were uncomfortable. They also worked.
+
+My life at work and at home improved. Slowing down long enough to create guardrails helped me decide what deserved my time before the next urgent request decided for me. Disconnecting became a normal part of the week rather than a reward I might earn after an impossible amount of work.
+
+The organization did not suddenly become calm. The difference was that its chaos no longer had automatic access to every part of my life.
+
+I still believe in ambitious work. I just no longer believe ambition requires permanent availability. Sustainable impact needs rest, focus, and priorities that can survive contact with a crowded inbox.
+
+<blockquote class="boundary-pullquote boundary-pullquote--closing">
+  <p>Working for a chaotic leader can feel like Whac-A-Mole with random tasks. Boundaries are how you stop handing over the mallet—and your whole day.</p>
+  <cite>— Mike Stevens</cite>
+</blockquote>
+
+If work has expanded into every open hour, start with one visible line: a signed-off calendar block, a deleted app, a meeting-free morning. The first boundary does not have to fix the system. It only has to return one choice to you.
+
+</div>
+
