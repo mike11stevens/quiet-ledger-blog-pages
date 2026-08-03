@@ -495,28 +495,14 @@ a:hover {
 }
 
 .link-card.link-card--social {
-  grid-template-columns: 1fr;
-  grid-template-rows: 64px minmax(0, 1fr);
-  min-height: 142px;
-}
-
-.link-card--social .link-card__body {
-  align-items: center;
-  gap: 5px;
-  padding: 14px;
-  text-align: center;
-}
-
-.link-card--social .link-card__domain {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  display: flex;
+  min-height: 88px;
 }
 
 .link-card--social .link-card__thumb {
-  font-size: 1.15rem;
-  min-height: 64px;
-  order: -1;
+  flex: 1;
+  font-size: 1.5rem;
+  min-height: 88px;
 }
 
 .about-portrait {
@@ -724,17 +710,15 @@ a:hover {
   }
 
   .link-card-group--social {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .link-card.link-card--social {
-    grid-template-columns: 1fr;
-    grid-template-rows: 64px minmax(0, 1fr);
+    min-height: 72px;
   }
 
   .link-card--social .link-card__thumb {
-    min-height: 64px;
-    order: -1;
+    min-height: 72px;
   }
 
   .page-header--image {
