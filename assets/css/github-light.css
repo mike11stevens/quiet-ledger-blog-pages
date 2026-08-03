@@ -787,6 +787,25 @@ a:hover {
   font-style: normal;
 }
 
+.boundary-photo {
+  margin: 2.5rem auto;
+  max-width: 620px;
+}
+
+.boundary-photo img {
+  border-radius: 12px;
+  display: block;
+  width: 100%;
+}
+
+.boundary-photo figcaption {
+  color: var(--gh-muted);
+  font-size: 0.78rem;
+  line-height: 1.45;
+  margin-top: 0.65rem;
+  text-align: center;
+}
+
 .boundary-pullquote {
   border-left: 0;
   color: #111827;
