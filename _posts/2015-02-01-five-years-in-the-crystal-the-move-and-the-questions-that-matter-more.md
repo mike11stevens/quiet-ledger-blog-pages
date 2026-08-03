@@ -60,6 +60,10 @@ For reasons I can't fully explain, it has always reminded me of Superman's Fortr
 
 As a kid, I thought the Fortress was where Superman went to find answers.
 
+![Superman standing inside the Fortress of Solitude]({{ '/assets/images/fortress-of-solitude-superman.png' | relative_url }}){: .align-center}
+
+*The Fortress of Solitude: a place to step away, reflect, and regain perspective.*
+
 Looking at the crystal now, I think that's only part of the story.
 
 The Fortress wasn't simply a repository of knowledge. It was where he stepped away from the noise, reflected on where he'd been, and regained perspective before deciding where to go next.
