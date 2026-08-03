@@ -6,7 +6,7 @@ excerpt: "About Mike Stevens—technology, learning, family, and everything in b
 hide_page_header: true
 ---
 
-Hi, I’m Mike Stevens.
+**Hi, my name is Mike Stevens.**
 
 <figure class="about-portrait">
   <img src="{{ '/assets/images/mike-stevens-pizza.webp' | relative_url }}" alt="Mike Stevens sitting behind a large pepperoni pizza" loading="eager" decoding="async">
@@ -25,25 +25,13 @@ For a longer and slightly less polished introduction and exposé on just how “
 If something here sparks a thought, [send me an email](mailto:blog@vampireworkday.com).
 
 <div class="link-card-group link-card-group--social">
-  <a class="link-card link-card--social" href="https://linkedin.com/in/mikestevens" target="_blank" rel="noopener noreferrer">
-    <span class="link-card__body">
-      <strong class="link-card__title">LinkedIn</strong>
-      <span class="link-card__domain">linkedin.com/in/mikestevens</span>
-    </span>
+  <a class="link-card link-card--social" href="https://linkedin.com/in/mikestevens" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
     <span class="link-card__thumb link-card__thumb--linkedin"><i class="fab fa-linkedin-in" aria-hidden="true"></i></span>
   </a>
-  <a class="link-card link-card--social" href="https://twitter.com/mike11stevens" target="_blank" rel="noopener noreferrer">
-    <span class="link-card__body">
-      <strong class="link-card__title">Twitter</strong>
-      <span class="link-card__domain">@mike11stevens</span>
-    </span>
+  <a class="link-card link-card--social" href="https://twitter.com/mike11stevens" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
     <span class="link-card__thumb link-card__thumb--twitter"><i class="fab fa-twitter" aria-hidden="true"></i></span>
   </a>
-  <a class="link-card link-card--social" href="https://github.com/mike11stevens" target="_blank" rel="noopener noreferrer">
-    <span class="link-card__body">
-      <strong class="link-card__title">GitHub</strong>
-      <span class="link-card__domain">github.com/mike11stevens</span>
-    </span>
+  <a class="link-card link-card--social" href="https://github.com/mike11stevens" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
     <span class="link-card__thumb link-card__thumb--github"><i class="fab fa-github" aria-hidden="true"></i></span>
   </a>
 </div>
