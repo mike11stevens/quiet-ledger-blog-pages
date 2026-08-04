@@ -115,6 +115,15 @@ The work centered on technical enablement, architecture reviews, marketplace pub
 
 Some of the most rewarding conversations during this period came from working with the people building the future rather than merely deploying it.
 
+### FastTrack for Azure—ISVs and Startups
+
+The FastTrack for Azure—ISVs and Startups team, or **FT-ISV**, brought that builder-focused work to life. We worked directly with independent software vendors and startups to help them design, build, and scale solutions on Azure. This video captures the team and the kind of opportunity we were inviting people to join.
+
+<div class="linkedin-embed">
+  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:6860920306622595072" title="LinkedIn video from the FastTrack for Azure—ISVs and Startups team" loading="lazy" allowfullscreen></iframe>
+</div>
+<p class="video-link"><a href="https://www.linkedin.com/feed/update/urn:li:activity:6860920306622595072/" target="_blank" rel="noopener noreferrer">Watch the FastTrack for Azure—ISVs and Startups video on LinkedIn</a></p>
+
 ## Scale Changes the Job
 
 One thing became increasingly clear during this period.
