@@ -36,6 +36,11 @@ Celebrating that way felt appropriate. When I joined Microsoft in January 2010, 
 
 The career I imagined in 2010 and the one I am living in 2020 are related, but they are not quite the same story.
 
+<figure class="image-figure">
+  <img src="{{ '/assets/images/microsoft-ten-year-crystal.jpg' | relative_url }}" alt="Mike Stevens's ten-year Microsoft anniversary crystal with green geometric accents on his desk" loading="lazy" decoding="async">
+  <figcaption>The ten-year Microsoft anniversary crystal on my desk.</figcaption>
+</figure>
+
 ## Microsoft Changed
 
 One challenge in reflecting on a ten-year anniversary is separating personal change from organizational change. Microsoft was a very different company in 2010. Windows Server, SharePoint, Exchange, SQL Server, System Center, and enterprise infrastructure dominated many customer conversations. Most of my early work involved deployments, migrations, troubleshooting, architecture reviews, support cases, and the daily business of keeping important systems healthy and available.
