@@ -216,6 +216,13 @@ It is also the most accurate one I have found.
   <figcaption>Another five years unfolding together: Microsoft's acceleration above the line and my own shift from skilling to builders, feedback systems, and portfolio-scale engagement below it, ending with this early fifteenth-year reflection.</figcaption>
 </figure>
 
+<figure class="image-figure image-figure--full">
+  <a href="{{ '/assets/images/microsoft-2010-2025-full-timeline-large.png' | relative_url }}" class="image-popup image-figure__zoom" title="Microsoft's transformation and Mike Stevens's career from 2010 through 2025" aria-label="Open the full fifteen-year Microsoft and career timeline at full size">
+    <img src="{{ '/assets/images/microsoft-2010-2025-full-timeline.svg' | relative_url }}" alt="Full parallel timeline from 2010 through 2025, with Microsoft milestones above the line, Mike Stevens's career milestones below it, and 180 monthly Microsoft stock closing prices overlaid" loading="lazy" decoding="async">
+  </a>
+  <figcaption>The full fifteen-year view: cloud, culture, open source, AI, and a career repeatedly becoming new again.</figcaption>
+</figure>
+
 The company context comes from Microsoft's accounts of the [2020 shift to remote work](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/), [Azure OpenAI Service general availability](https://azure.microsoft.com/en-us/blog/general-availability-of-azure-openai-service-expands-access-to-large-advanced-ai-models-with-added-enterprise-benefits/), [ISV Success](https://azure.microsoft.com/en-us/blog/drive-innovation-in-the-era-of-ai-with-isv-success/), and [AI transformation across the partner ecosystem](https://blogs.microsoft.com/blog/2024/04/24/leading-in-the-era-of-ai-how-microsofts-platform-differentiation-and-copilot-empowerment-are-driving-ai-transformation/). The green line uses [MSFT's unadjusted month-end closing prices](https://finance.yahoo.com/quote/MSFT/history/) in U.S. dollars, ending with the December 30, 2024 close because that is this post's publication date. The career milestones reflect my own experience; organizational and program names are shown as they were relevant to this chapter.
 
 ---
