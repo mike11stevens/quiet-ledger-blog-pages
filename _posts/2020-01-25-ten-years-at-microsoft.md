@@ -4,8 +4,8 @@ date: 2020-01-25 00:00:00 -0500
 excerpt: "Ten years after joining Microsoft, I found myself in a customer classroom teaching Azure and reflecting on how much both the company and I had changed."
 redirect_from: /ten-years-at-microsoft/
 header:
-  image: /assets/images/microsoft-ten-year-cincinnati-elevator.png
-  teaser: /assets/images/microsoft-ten-year-cincinnati-elevator.png
+  image: /assets/images/microsoft-ten-year-mms-header-2400.jpg
+  teaser: /assets/images/microsoft-ten-year-mms-header-2400.jpg
 tags:
   - microsoft
   - career
@@ -122,7 +122,7 @@ Eventually, I realized that my primary contribution was no longer solving an imm
 ---
 
 <figure class="image-figure image-figure--full">
-  <a href="{{ '/assets/images/microsoft-2010-2020-timeline.svg' | relative_url }}" class="image-popup image-figure__zoom" title="Microsoft's cloud transformation and my career from 2010 through 2020" aria-label="Open the Microsoft and career timeline at full size">
+  <a href="{{ '/assets/images/microsoft-2010-2020-timeline-large.png' | relative_url }}" class="image-popup image-figure__zoom" title="Microsoft's cloud transformation and my career from 2010 through 2020" aria-label="Open the Microsoft and career timeline at full size">
     <img src="{{ '/assets/images/microsoft-2010-2020-timeline.svg' | relative_url }}" alt="Parallel timeline of Microsoft's cloud transformation and Mike Stevens's career from 2010 through 2020, with Microsoft's year-end stock price overlaid" loading="lazy" decoding="async">
   </a>
   <figcaption>Two timelines unfolding together: Microsoft's transformation above the line and my own journey below it.</figcaption>
