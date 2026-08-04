@@ -39,17 +39,19 @@ In 2010, Microsoft was a very different company.
 
 Windows Server, SharePoint, Exchange, SQL Server, System Center, and enterprise infrastructure dominated many customer conversations. Most of my early work revolved around deployments, migrations, troubleshooting, architecture reviews, support cases, and keeping important systems healthy and available.
 
-Azure existed, but it was still early.
+Azure existed, but it was still early. In fact, [Windows Azure and SQL Azure became generally available](https://blogs.microsoft.com/blog/2010/02/01/windows-azure-general-availability/) on February 1, 2010—just days after I joined the company.
 
-Office 365 existed, but most organizations were not yet betting their future on cloud services.
+The following year, [Microsoft launched Office 365](https://news.microsoft.com/speeches/steve-ballmer-office-365-launch/), bringing Office, SharePoint, Exchange, and Lync together as cloud services. Most organizations were not yet betting their future on the cloud, but the direction was becoming clearer.
 
 Then things started changing.
 
-Satya Nadella became CEO in 2014 and articulated Microsoft's new mission:
+[Satya Nadella became CEO in 2014](https://news.microsoft.com/source/2014/02/04/microsoft-board-names-satya-nadella-as-ceo/) and articulated the urgency of Microsoft's transformation:
 
 > "Our industry does not respect tradition. It only respects innovation."
 
 The company increasingly organized around cloud services, digital transformation, subscriptions, developer platforms, and continuous learning. Azure grew from an interesting option into a core part of Microsoft's future.
+
+The cultural shift became visible in ways that would have been difficult to imagine in 2010. In 2016, [Microsoft joined the Linux Foundation](https://news.microsoft.com/source/2016/11/16/microsoft-contributes-to-open-ecosystem-by-joining-linux-foundation-and-welcoming-google-to-the-net-community/) as a Platinum member. In 2018, it [announced the acquisition of GitHub](https://news.microsoft.com/announcement/microsoft-acquires-github/), describing Microsoft as a developer-first company committed to freedom, openness, and innovation.
 
 Customers changed with it.
 
@@ -61,7 +63,7 @@ Looking back now, I realize that my own career was changing in many of the same 
 
 ## Germany Became Home
 
-When I wrote my five-year anniversary post, Wendy and I were raising our family in Germany while I supported United States Air Forces in Europe.
+When I wrote **[Five Years at Microsoft](/posts/five-years-in-the-crystal-the-move-and-the-questions-that-matter-more/)**, Wendy and I were raising our family in Germany while I supported United States Air Forces in Europe.
 
 At the time, Germany still felt like a major chapter in our lives.
 
@@ -178,7 +180,7 @@ Apparently every few years I become a beginner again.
 
 ## Enterprise Skills Initiative
 
-One of the largest professional transitions of the decade happened when I left Microsoft Services and joined Worldwide Learning as an Azure Technical Trainer supporting the Enterprise Skills Initiative (ESI).
+One of the largest professional transitions of the decade happened when I left Microsoft Services and joined Worldwide Learning as an Azure Technical Trainer supporting the Enterprise Skills Initiative (ESI). I wrote about the change as it was happening in **[Role-based change](/posts/role-based-change/)**.
 
 Initially, I thought I would be teaching Azure.
 
@@ -202,35 +204,12 @@ That felt like a meaningful evolution.
 
 ---
 
-### Ten Years at Microsoft
+<figure class="image-figure">
+  <img src="{{ '/assets/images/microsoft-2010-2020-timeline.svg' | relative_url }}" alt="Parallel timeline of Microsoft's cloud transformation and Mike Stevens's career from 2010 through 2020, with Microsoft's year-end stock price overlaid" loading="lazy" decoding="async">
+  <figcaption>Two timelines unfolding together: Microsoft's transformation above the line and my own journey below it.</figcaption>
+</figure>
 
-```text
-2010
-Join Microsoft
-Premier Field Engineer
-
-2013
-Germany
-USAFE-AFAFRICA
-
-2015
-Five-Year Anniversary
-
-2016-2018
-Architecture
-Planning
-Service Delivery
-Azure Learning
-
-2019
-Return to United States
-Worldwide Learning
-Enterprise Skills Initiative
-
-2020
-Azure Technical Trainer
-Ten-Year Anniversary
-```
+The company milestones come from Microsoft's announcements for [Azure general availability](https://blogs.microsoft.com/blog/2010/02/01/windows-azure-general-availability/), the [Office 365 launch](https://news.microsoft.com/speeches/steve-ballmer-office-365-launch/), [Satya Nadella's appointment as CEO](https://news.microsoft.com/source/2014/02/04/microsoft-board-names-satya-nadella-as-ceo/), [joining the Linux Foundation](https://news.microsoft.com/source/2016/11/16/microsoft-contributes-to-open-ecosystem-by-joining-linux-foundation-and-welcoming-google-to-the-net-community/), and the [GitHub acquisition](https://news.microsoft.com/announcement/microsoft-acquires-github/). The stock line uses [MSFT's unadjusted year-end closing prices](https://finance.yahoo.com/quote/MSFT/history/) in U.S. dollars.
 
 ---
 
@@ -288,7 +267,9 @@ I suspect that lesson will remain useful for whatever comes next.
 
 ---
 
-## Earlier Anniversary Posts
+## Related Posts
 
 - **[My First Year at Microsoft](/posts/my-first-year-at-microsoft/)** — Learning that nobody succeeds alone
 - **[Five Years at Microsoft](/posts/five-years-in-the-crystal-the-move-and-the-questions-that-matter-more/)** — Germany, family, perspective, and the questions that matter more
+- **["Ask not, Have not"](/posts/ask-not-have-not/)** — Refusing to reject an opportunity before asking
+- **[Role-based change](/posts/role-based-change/)** — Moving into Worldwide Learning, Azure training, and ESI
