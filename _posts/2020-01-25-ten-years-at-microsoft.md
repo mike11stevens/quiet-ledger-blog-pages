@@ -25,6 +25,13 @@ This week marks ten years since I joined Microsoft.
 
 Unlike my first anniversary, I didn't spend much time thinking about it ahead of time. Ten years arrived quietly. I happened to be onsite with a customer in Cincinnati delivering Azure training. The week looked remarkably similar to hundreds of other travel weeks over the last decade. There were flights, hotels, demos, slide decks, customer questions, and the usual collection of chargers and adapters that seem to multiply inside every consultant backpack.
 
+The customer even took us out for Cincinnati's famous Skyline Chili. What a way to celebrate ten years at Microsoft!
+
+<figure class="image-figure">
+  <img src="{{ '/assets/images/microsoft-ten-year-cincinnati-skyline-chili.png' | relative_url }}" alt="A plate of Cincinnati-style Skyline Chili covered with finely shredded cheddar cheese" loading="lazy" decoding="async">
+  <figcaption>Azure training and Cincinnati chili. Not a bad way to celebrate ten years.</figcaption>
+</figure>
+
 If anything, that felt appropriate.
 
 When I joined Microsoft in January 2010, I could not have predicted where the next ten years would lead. I certainly did not have "living in Germany," "supporting USAFE," "teaching Azure," or "helping customers build cloud skills" anywhere on my list.
@@ -39,7 +46,9 @@ In 2010, Microsoft was a very different company.
 
 Windows Server, SharePoint, Exchange, SQL Server, System Center, and enterprise infrastructure dominated many customer conversations. Most of my early work revolved around deployments, migrations, troubleshooting, architecture reviews, support cases, and keeping important systems healthy and available.
 
-Azure existed, but it was still early. In fact, [Windows Azure and SQL Azure became generally available](https://blogs.microsoft.com/blog/2010/02/01/windows-azure-general-availability/) on February 1, 2010—just days after I joined the company.
+The cloud was not entirely new to me. Some of my earliest commercial-sector cloud work involved [Business Productivity Online Suite (BPOS)](https://blogs.microsoft.com/blog/2010/05/19/partners-find-value-with-microsofts-cloud-apps/) and BPOS Dedicated, the hosted services that preceded Office 365. At the time, it felt less like leaving the datacenter behind than learning where its boundaries had moved.
+
+Azure existed, but it was still early—and the names alone chart the learning curve. What began inside Microsoft as [Project Red Dog](https://news.microsoft.com/speeches/professional-developers-conference-2008-day-1-keynote-ray-ozzie-amitabh-srivastava-bob-muglia-dave-thompson/) emerged publicly as Windows Azure. [Windows Azure and SQL Azure became generally available](https://blogs.microsoft.com/blog/2010/02/01/windows-azure-general-availability/) on February 1, 2010—just days after I joined the company—and in 2014 [Windows Azure became Microsoft Azure](https://azure.microsoft.com/en-us/blog/upcoming-name-change-for-windows-azure/). Learning the cloud meant keeping up with far more than a changing name. It required rethinking architecture, operations, identity, security, and how services were delivered.
 
 The following year, [Microsoft launched Office 365](https://news.microsoft.com/speeches/steve-ballmer-office-365-launch/), bringing Office, SharePoint, Exchange, and Lync together as cloud services. Most organizations were not yet betting their future on the cloud, but the direction was becoming clearer.
 
@@ -60,6 +69,17 @@ The questions they asked changed.
 The skills they needed changed.
 
 Looking back now, I realize that my own career was changing in many of the same ways.
+
+## “To the Cloud!”
+
+In 2010, Microsoft made the transition memorable with its [“To the Cloud!” television campaign](https://blogs.windows.com/windowsexperience/2010/12/07/to-the-cloud-an-in-depth-look-at-the-pcs-scenarios-from-our-new-tv-ad-campaign/). The commercials were playful consumer stories, but the phrase stuck because it named a much larger sea change already underway.
+
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/Yc7fYvGB6RY" title="Microsoft Windows 7 To the Cloud television commercials compilation from 2010" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<p class="video-link"><a href="https://www.youtube.com/watch?v=Yc7fYvGB6RY" target="_blank" rel="noopener">Watch the 2010 “To the Cloud” commercial compilation on YouTube</a></p>
+
+The slogan made the journey sound easy. It was not. In commercial environments—and especially in OCONUS U.S. Department of Defense and NATO environments—moving from on-premises systems toward the cloud raised hard questions about connectivity, identity, security, data location, accreditation, continuity, and disconnected operations. The direction was becoming clear. The path depended entirely on the mission and the environment.
 
 ## Germany Became Home
 
@@ -120,7 +140,7 @@ Most meaningful work starts before anybody has all the answers.
 
 ## Learning Azure
 
-By 2017 and 2018, I could see where Microsoft was heading.
+By 2015, the cloud was no longer sitting at the edge of my work. Over the next five years, I moved from those early BPOS and BPOS Dedicated roots into the much broader scope of the Microsoft cloud. By 2017 and 2018, I could see where Microsoft—and my own career—were heading.
 
 Azure appeared more frequently in customer discussions.
 
@@ -209,7 +229,9 @@ That felt like a meaningful evolution.
   <figcaption>Two timelines unfolding together: Microsoft's transformation above the line and my own journey below it.</figcaption>
 </figure>
 
-The company milestones come from Microsoft's announcements for [Azure general availability](https://blogs.microsoft.com/blog/2010/02/01/windows-azure-general-availability/), the [Office 365 launch](https://news.microsoft.com/speeches/steve-ballmer-office-365-launch/), [Satya Nadella's appointment as CEO](https://news.microsoft.com/source/2014/02/04/microsoft-board-names-satya-nadella-as-ceo/), [joining the Linux Foundation](https://news.microsoft.com/source/2016/11/16/microsoft-contributes-to-open-ecosystem-by-joining-linux-foundation-and-welcoming-google-to-the-net-community/), and the [GitHub acquisition](https://news.microsoft.com/announcement/microsoft-acquires-github/). The stock line uses [MSFT's unadjusted year-end closing prices](https://finance.yahoo.com/quote/MSFT/history/) in U.S. dollars.
+The company milestones come from Microsoft's announcements for [Azure general availability](https://blogs.microsoft.com/blog/2010/02/01/windows-azure-general-availability/), the [Office 365 launch](https://news.microsoft.com/speeches/steve-ballmer-office-365-launch/), [Satya Nadella's appointment as CEO](https://news.microsoft.com/source/2014/02/04/microsoft-board-names-satya-nadella-as-ceo/), [joining the Linux Foundation](https://news.microsoft.com/source/2016/11/16/microsoft-contributes-to-open-ecosystem-by-joining-linux-foundation-and-welcoming-google-to-the-net-community/), and the [GitHub acquisition](https://news.microsoft.com/announcement/microsoft-acquires-github/). The green line uses [MSFT's unadjusted year-end closing prices](https://finance.yahoo.com/quote/MSFT/history/) in U.S. dollars.
+
+That green line invites an obvious counterfactual: my initial stock awards might have led to early retirement—if I had not sold them along the way for diapers, down payments, and Belgian Trappist beer. No regrets. Mostly.
 
 ---
 
