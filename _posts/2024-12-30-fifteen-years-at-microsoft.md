@@ -33,6 +33,20 @@ At **[five years](/posts/five-years-in-the-crystal-the-move-and-the-questions-th
 
 At **[ten years](/posts/ten-years-at-microsoft/)**, I found myself in a customer classroom teaching Azure and reflecting on how much both Microsoft and I had changed.
 
+The badge from that first year is still with me. The photograph has faded, the edges are worn, and the surface carries fifteen years of scratches and scuffs. It may be the most honest artifact of the journey.
+
+<figure class="image-figure">
+  <img src="{{ '/assets/images/microsoft-first-year-badge-redacted.png' | relative_url }}" alt="Mike Stevens's worn Microsoft employee badge after nearly fifteen years of use" loading="lazy" decoding="async">
+  <figcaption>The badge that started the journey, carrying nearly fifteen years of wear.</figcaption>
+</figure>
+
+Over time, the badge was joined by a small collection of anniversary crystals: blue at five years, green at ten, and orange at fifteen. Together, they make the passage of time look much tidier than it felt while living it.
+
+<figure class="image-figure">
+  <img src="{{ '/assets/images/microsoft-anniversary-crystals-five-ten-fifteen.png' | relative_url }}" alt="Microsoft anniversary crystals marking five years in blue, ten years in green, and fifteen years in orange" loading="lazy" decoding="async">
+  <figcaption>Five years in blue, ten in green, and fifteen in orange.</figcaption>
+</figure>
+
 Fifteen years feels different.
 
 This anniversary has me thinking less about technology and more about systems.
