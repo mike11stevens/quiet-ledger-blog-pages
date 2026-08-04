@@ -381,6 +381,26 @@ a:hover {
   margin: 0 auto;
 }
 
+.page__content .image-figure--full {
+  width: 100%;
+}
+
+.page__content .image-figure--full img {
+  height: auto;
+  width: 100%;
+}
+
+.page__content .image-figure__zoom {
+  cursor: zoom-in;
+  display: block;
+}
+
+.page__content .image-figure__zoom:focus-visible {
+  border-radius: 6px;
+  outline: 3px solid var(--gh-accent);
+  outline-offset: 3px;
+}
+
 .page__content .image-caption,
 .page__content figcaption {
   color: var(--gh-muted);
