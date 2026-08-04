@@ -121,8 +121,10 @@ Eventually, I realized that my primary contribution was no longer solving an imm
 
 ---
 
-<figure class="image-figure">
-  <img src="{{ '/assets/images/microsoft-2010-2020-timeline.svg' | relative_url }}" alt="Parallel timeline of Microsoft's cloud transformation and Mike Stevens's career from 2010 through 2020, with Microsoft's year-end stock price overlaid" loading="lazy" decoding="async">
+<figure class="image-figure image-figure--full">
+  <a href="{{ '/assets/images/microsoft-2010-2020-timeline.svg' | relative_url }}" class="image-popup image-figure__zoom" title="Microsoft's cloud transformation and my career from 2010 through 2020" aria-label="Open the Microsoft and career timeline at full size">
+    <img src="{{ '/assets/images/microsoft-2010-2020-timeline.svg' | relative_url }}" alt="Parallel timeline of Microsoft's cloud transformation and Mike Stevens's career from 2010 through 2020, with Microsoft's year-end stock price overlaid" loading="lazy" decoding="async">
+  </a>
   <figcaption>Two timelines unfolding together: Microsoft's transformation above the line and my own journey below it.</figcaption>
 </figure>
 
