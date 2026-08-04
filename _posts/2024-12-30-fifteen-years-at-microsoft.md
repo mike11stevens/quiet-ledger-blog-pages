@@ -4,8 +4,8 @@ date: 2024-12-30 00:00:00 -0500
 excerpt: "As I approached fifteen years at Microsoft, I found myself spending less time solving individual problems and more time helping systems, programs, and people work together."
 redirect_from: /fifteen-years-at-microsoft/
 header:
-  image: /assets/images/mike-stevens-profile.png
-  teaser: /assets/images/mike-stevens-profile.png
+  image: /assets/images/microsoft-fifteen-year-atlanta-atlantic-station.png
+  teaser: /assets/images/microsoft-fifteen-year-atlanta-atlantic-station.png
 tags:
   - microsoft
   - career
@@ -17,8 +17,8 @@ tags:
 ---
 
 <figure class="image-figure">
-  <img src="{{ '/assets/images/mike-stevens-profile.png' | relative_url }}" alt="Portrait of Mike Stevens as he approaches his fifteenth anniversary at Microsoft" loading="eager" decoding="async">
-  <figcaption>Approaching fifteen years at Microsoft.</figcaption>
+  <img src="{{ '/assets/images/microsoft-fifteen-year-atlanta-atlantic-station.png' | relative_url }}" alt="Mike Stevens standing beside the Microsoft sign in front of Microsoft's Atlanta office at Atlantic Station" loading="eager" decoding="async">
+  <figcaption>In front of Microsoft's new Atlanta building at Atlantic Station.</figcaption>
 </figure>
 
 On January 27, 2025, it will be fifteen years since I joined Microsoft.
