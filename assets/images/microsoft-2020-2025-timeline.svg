@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="timeline-title timeline-desc">
+  <title id="timeline-title">Microsoft and Mike Stevens, 2020 to 2025</title>
+  <desc id="timeline-desc">A parallel timeline showing Microsoft milestones above the line and Mike Stevens's career milestones below it, with Microsoft's unadjusted month-end stock closing price overlaid from January 2020 through December 30, 2024. Microsoft milestones include the global shift to remote work, Azure OpenAI Service debuting and becoming generally available, ISV Success becoming generally available, and AI transformation accelerating across the partner ecosystem. Personal milestones include Enterprise Skills Initiative, joining Azure CXP and FastTrack for ISV, expanding digital-native and ISV work, building engineering feedback loops, focusing on AI, and publishing a fifteenth-year reflection a few weeks early in December 2024.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f5f7fa}.frame{fill:none;stroke:#cbd3dc;stroke-width:2}.title{font:700 31px Arial,sans-serif;fill:#202833}.subtitle{font:400 17px Arial,sans-serif;fill:#5e6875}.legend{font:700 15px Arial,sans-serif;fill:#28313c}.axis{stroke:#8c97a3;stroke-width:4;stroke-linecap:round}.tick{stroke:#8c97a3;stroke-width:2}.year{font:400 14px Arial,sans-serif;fill:#55606d;text-anchor:middle}.company-line{stroke:#0875d1;stroke-width:3}.career-line{stroke:#59636e;stroke-width:3}.company-dot{fill:#0875d1;stroke:#fff;stroke-width:3}.career-dot{fill:#59636e;stroke:#fff;stroke-width:3}.company-box{fill:#dcefff;stroke:#5eaff0;stroke-width:1.5}.career-box{fill:#eef1f4;stroke:#aab3bc;stroke-width:1.5}.date-company{font:700 14px Arial,sans-serif;fill:#075aa3}.date-career{font:700 14px Arial,sans-serif;fill:#59636e}.event{font:400 15px Arial,sans-serif;fill:#202833}.note{font:400 12px Arial,sans-serif;fill:#66717d}.callout{font:700 15px Arial,sans-serif;fill:#8b5b00}.callout-box{fill:#fff1c7;stroke:#e1b950;stroke-width:1.5}.stock-line{fill:none;stroke:#188547;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}.stock-area{fill:#188547;opacity:.10}.stock-dot{fill:#188547;stroke:#fff;stroke-width:3}.stock-quarter{fill:#188547;stroke:#fff;stroke-width:1.5}.stock-axis{stroke:#188547;stroke-width:2}.stock-tick{stroke:#188547;stroke-width:1.5}.stock-label{font:400 12px Arial,sans-serif;fill:#55606d}.stock-value{font:700 12px Arial,sans-serif;fill:#176c3e}
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="800" rx="22"/>
+  <rect class="frame" x="18" y="18" width="1164" height="764" rx="20"/>
+  <text class="title" x="62" y="74">Five years of acceleration</text>
+  <text class="subtitle" x="62" y="106">Microsoft's AI transformation and a career moving from individual engagements to systems</text>
+
+  <circle class="company-dot" cx="72" cy="142" r="7"/><text class="legend" x="88" y="148">MICROSOFT CONTEXT</text>
+  <circle class="career-dot" cx="272" cy="142" r="7"/><text class="legend" x="288" y="148">MY MILESTONES</text>
+  <circle class="stock-dot" cx="864" cy="142" r="7"/><text class="legend" x="880" y="148">MSFT MONTH-END CLOSE</text>
+
+  <g aria-label="Microsoft month-end stock closing prices across 60 observations from January 31, 2020 through December 30, 2024. The series begins at 170 dollars and 23 cents and ends at 424 dollars and 83 cents.">
+    <path class="stock-area" d="M116.7 324.0 L133.3 328.2 L150.0 330.4 L166.7 319.4 L183.3 317.3 L200.0 307.0 L216.7 306.2 L233.3 295.7 L250.0 303.5 L266.7 307.5 L283.3 301.5 L300.0 297.3 L316.7 292.4 L333.3 292.2 L350.0 290.4 L366.7 282.0 L383.3 283.3 L400.0 272.4 L416.7 265.2 L433.3 256.5 L450.0 266.8 L466.7 241.3 L483.3 241.8 L500.0 238.9 L516.7 251.9 L533.3 258.1 L550.0 253.2 L566.7 269.0 L583.3 271.9 L600.0 279.6 L616.7 267.4 L633.3 277.2 L650.0 291.9 L666.7 292.3 L683.3 280.5 L700.0 288.3 L716.7 284.2 L733.3 283.4 L750.0 263.5 L766.7 253.8 L783.3 243.0 L800.0 236.7 L816.7 239.1 L833.3 243.3 L850.0 249.4 L866.7 238.0 L883.3 217.1 L900.0 218.5 L916.7 207.5 L933.3 199.3 L950.0 195.6 L966.7 211.7 L983.3 198.5 L1000.0 182.2 L1016.7 196.8 L1033.3 197.5 L1050.0 190.7 L1066.7 203.0 L1083.3 194.2 L1100.0 193.5 L1100 396 L116.7 396 Z"/>
+    <path class="stock-line" d="M116.7 324.0 L133.3 328.2 L150.0 330.4 L166.7 319.4 L183.3 317.3 L200.0 307.0 L216.7 306.2 L233.3 295.7 L250.0 303.5 L266.7 307.5 L283.3 301.5 L300.0 297.3 L316.7 292.4 L333.3 292.2 L350.0 290.4 L366.7 282.0 L383.3 283.3 L400.0 272.4 L416.7 265.2 L433.3 256.5 L450.0 266.8 L466.7 241.3 L483.3 241.8 L500.0 238.9 L516.7 251.9 L533.3 258.1 L550.0 253.2 L566.7 269.0 L583.3 271.9 L600.0 279.6 L616.7 267.4 L633.3 277.2 L650.0 291.9 L666.7 292.3 L683.3 280.5 L700.0 288.3 L716.7 284.2 L733.3 283.4 L750.0 263.5 L766.7 253.8 L783.3 243.0 L800.0 236.7 L816.7 239.1 L833.3 243.3 L850.0 249.4 L866.7 238.0 L883.3 217.1 L900.0 218.5 L916.7 207.5 L933.3 199.3 L950.0 195.6 L966.7 211.7 L983.3 198.5 L1000.0 182.2 L1016.7 196.8 L1033.3 197.5 L1050.0 190.7 L1066.7 203.0 L1083.3 194.2 L1100.0 193.5"/>
+    <circle class="stock-quarter" cx="150" cy="330.4" r="3"/><circle class="stock-quarter" cx="200" cy="307" r="3"/><circle class="stock-quarter" cx="250" cy="303.5" r="3"/><circle class="stock-quarter" cx="300" cy="297.3" r="3"/>
+    <circle class="stock-quarter" cx="350" cy="290.4" r="3"/><circle class="stock-quarter" cx="400" cy="272.4" r="3"/><circle class="stock-quarter" cx="450" cy="266.8" r="3"/><circle class="stock-quarter" cx="500" cy="238.9" r="3"/>
+    <circle class="stock-quarter" cx="550" cy="253.2" r="3"/><circle class="stock-quarter" cx="600" cy="279.6" r="3"/><circle class="stock-quarter" cx="650" cy="291.9" r="3"/><circle class="stock-quarter" cx="700" cy="288.3" r="3"/>
+    <circle class="stock-quarter" cx="750" cy="263.5" r="3"/><circle class="stock-quarter" cx="800" cy="236.7" r="3"/><circle class="stock-quarter" cx="850" cy="249.4" r="3"/><circle class="stock-quarter" cx="900" cy="218.5" r="3"/>
+    <circle class="stock-quarter" cx="950" cy="195.6" r="3"/><circle class="stock-quarter" cx="1000" cy="182.2" r="3"/><circle class="stock-quarter" cx="1050" cy="190.7" r="3"/><circle class="stock-dot" cx="1100" cy="193.5" r="7"/>
+    <text class="stock-value" x="78" y="316">$170.23</text>
+    <text class="stock-value" x="1040" y="178">$424.83</text>
+    <line class="stock-axis" x1="1144" y1="155" x2="1144" y2="360"/>
+    <line class="stock-tick" x1="1144" y1="360" x2="1152" y2="360"/><text class="stock-label" x="1156" y="364">$100</text>
+    <line class="stock-tick" x1="1144" y1="309" x2="1152" y2="309"/><text class="stock-label" x="1156" y="313">$200</text>
+    <line class="stock-tick" x1="1144" y1="258" x2="1152" y2="258"/><text class="stock-label" x="1156" y="262">$300</text>
+    <line class="stock-tick" x1="1144" y1="206" x2="1152" y2="206"/><text class="stock-label" x="1156" y="210">$400</text>
+    <line class="stock-tick" x1="1144" y1="155" x2="1152" y2="155"/><text class="stock-label" x="1156" y="159">$500</text>
+  </g>
+
+  <line class="axis" x1="88" y1="396" x2="1112" y2="396"/>
+
+  <g>
+    <line class="tick" x1="100" y1="386" x2="100" y2="406"/><text class="year" x="100" y="428">2020</text>
+    <line class="tick" x1="300" y1="386" x2="300" y2="406"/><text class="year" x="300" y="428">2021</text>
+    <line class="tick" x1="500" y1="386" x2="500" y2="406"/><text class="year" x="500" y="428">2022</text>
+    <line class="tick" x1="700" y1="386" x2="700" y2="406"/><text class="year" x="700" y="428">2023</text>
+    <line class="tick" x1="900" y1="386" x2="900" y2="406"/><text class="year" x="900" y="428">2024</text>
+    <line class="tick" x1="1100" y1="386" x2="1100" y2="406"/><text class="year" x="1100" y="428">2025</text>
+  </g>
+
+  <g>
+    <line class="company-line" x1="100" y1="396" x2="100" y2="275"/>
+    <circle class="company-dot" cx="100" cy="396" r="10"/>
+    <rect class="company-box" x="48" y="190" width="210" height="86" rx="10"/>
+    <text class="date-company" x="66" y="218">MAR 2020</text>
+    <text class="event" x="66" y="244">Work and learning</text>
+    <text class="event" x="66" y="265">move online</text>
+  </g>
+
+  <g>
+    <line class="company-line" x1="300" y1="396" x2="300" y2="310"/>
+    <circle class="company-dot" cx="300" cy="396" r="10"/>
+    <rect class="company-box" x="230" y="236" width="222" height="75" rx="10"/>
+    <text class="date-company" x="248" y="264">NOV 2021</text>
+    <text class="event" x="248" y="289">Azure OpenAI debuts</text>
+  </g>
+
+  <g>
+    <line class="company-line" x1="700" y1="396" x2="700" y2="214"/>
+    <circle class="company-dot" cx="700" cy="396" r="10"/>
+    <rect class="company-box" x="590" y="127" width="220" height="88" rx="10"/>
+    <text class="date-company" x="608" y="155">JAN 2023</text>
+    <text class="event" x="608" y="181">Azure OpenAI Service</text>
+    <text class="event" x="608" y="202">becomes generally available</text>
+  </g>
+
+  <g>
+    <line class="company-line" x1="700" y1="396" x2="700" y2="310"/>
+    <rect class="company-box" x="706" y="236" width="202" height="75" rx="10"/>
+    <text class="date-company" x="724" y="264">JUL 2023</text>
+    <text class="event" x="724" y="289">ISV Success reaches GA</text>
+  </g>
+
+  <g>
+    <line class="company-line" x1="900" y1="396" x2="900" y2="275"/>
+    <circle class="company-dot" cx="900" cy="396" r="10"/>
+    <rect class="company-box" x="900" y="178" width="170" height="110" rx="10"/>
+    <text class="date-company" x="916" y="207">2024</text>
+    <text class="event" x="916" y="233">Copilot and AI</text>
+    <text class="event" x="916" y="254">transformation</text>
+    <text class="event" x="916" y="275">accelerates</text>
+  </g>
+
+  <g>
+    <line class="career-line" x1="100" y1="396" x2="100" y2="535"/>
+    <circle class="career-dot" cx="100" cy="396" r="10"/>
+    <rect class="career-box" x="48" y="534" width="220" height="92" rx="10"/>
+    <text class="date-career" x="66" y="562">2020</text>
+    <text class="event" x="66" y="588">Enterprise Skills Initiative</text>
+    <text class="event" x="66" y="609">Azure Technical Trainer</text>
+  </g>
+
+  <g>
+    <line class="career-line" x1="300" y1="396" x2="300" y2="494"/>
+    <circle class="career-dot" cx="300" cy="396" r="10"/>
+    <rect class="career-box" x="250" y="493" width="220" height="92" rx="10"/>
+    <text class="date-career" x="268" y="521">2020–2021</text>
+    <text class="event" x="268" y="547">Join Azure CXP</text>
+    <text class="event" x="268" y="568">FastTrack for ISV</text>
+  </g>
+
+  <g>
+    <line class="career-line" x1="500" y1="396" x2="500" y2="610"/>
+    <circle class="career-dot" cx="500" cy="396" r="10"/>
+    <rect class="career-box" x="432" y="609" width="230" height="92" rx="10"/>
+    <text class="date-career" x="450" y="637">2022</text>
+    <text class="event" x="450" y="663">Digital-native and ISV</text>
+    <text class="event" x="450" y="684">engagement expands</text>
+  </g>
+
+  <g>
+    <line class="career-line" x1="700" y1="396" x2="700" y2="494"/>
+    <circle class="career-dot" cx="700" cy="396" r="10"/>
+    <rect class="career-box" x="658" y="493" width="224" height="92" rx="10"/>
+    <text class="date-career" x="676" y="521">2023</text>
+    <text class="event" x="676" y="547">Engineering feedback</text>
+    <text class="event" x="676" y="568">loops grow at scale</text>
+  </g>
+
+  <g>
+    <line class="career-line" x1="900" y1="396" x2="900" y2="610"/>
+    <circle class="career-dot" cx="900" cy="396" r="10"/>
+    <rect class="career-box" x="852" y="609" width="232" height="92" rx="10"/>
+    <text class="date-career" x="870" y="637">2024</text>
+    <text class="event" x="870" y="663">AI and Copilot become</text>
+    <text class="event" x="870" y="684">central themes</text>
+  </g>
+
+  <g>
+    <line class="career-line" x1="1100" y1="396" x2="1100" y2="493"/>
+    <circle class="career-dot" cx="1100" cy="396" r="12"/>
+    <rect class="callout-box" x="922" y="493" width="218" height="92" rx="10"/>
+    <text class="callout" x="940" y="521">DEC 2024</text>
+    <text class="event" x="940" y="547">Fifteenth-year reflection</text>
+    <text class="event" x="940" y="568">published a few weeks early</text>
+  </g>
+
+  <text class="note" x="62" y="748">Company milestones: official Microsoft announcements • Stock: unadjusted month-end closing price, USD, through Dec. 30, 2024 • Career milestones: Fifteen Years at Microsoft</text>
+</svg>
