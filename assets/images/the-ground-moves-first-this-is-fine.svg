@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">The Ground Moves First — This Is Fine</title>
+<desc id="desc">An original cartoon of a calm dog at a desk while an office burns, surrounded by changing priorities, an uncertain org chart, and a reminder to create clarity and reduce friction.</desc>
+<defs>
+  <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a3821"/><stop offset="1" stop-color="#241a12"/></linearGradient>
+  <linearGradient id="fire" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#d94700"/><stop offset="0.55" stop-color="#ff8a00"/><stop offset="1" stop-color="#ffd54a"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".35"/></filter>
+</defs>
+<rect width="1200" height="630" fill="url(#wall)"/>
+<path d="M0 0h1200v120c-120-30-220 25-340-8-120-34-210 24-330-5C360 66 220 141 0 88z" fill="#111" opacity=".92"/>
+<text x="55" y="72" font-family="Arial Black, Impact, sans-serif" font-size="54" letter-spacing="1" fill="#f6efd9">THE GROUND MOVES FIRST</text>
+<text x="58" y="111" font-family="Arial, sans-serif" font-size="24" fill="#ffd54a">Finding your footing while everything around you keeps changing.</text>
+
+<!-- office boards -->
+<g filter="url(#shadow)">
+  <rect x="48" y="165" width="270" height="210" rx="8" fill="#e8d7af" stroke="#17120d" stroke-width="8"/>
+  <text x="95" y="205" font-family="Arial Black, sans-serif" font-size="25" fill="#21180e">PRIORITIES</text>
+  <g fill="#f0b633" stroke="#3d2c18" stroke-width="3">
+    <rect x="78" y="235" width="45" height="34"/><rect x="156" y="228" width="45" height="34"/><rect x="235" y="240" width="45" height="34"/>
+    <rect x="100" y="300" width="45" height="34"/><rect x="190" y="292" width="45" height="34"/>
+  </g>
+  <path d="M123 251h30m48-6h30M122 291l54-24m25 8l25 18" fill="none" stroke="#21180e" stroke-width="4" marker-end="url(#arrow)"/>
+</g>
+<g filter="url(#shadow)">
+  <rect x="930" y="168" width="215" height="205" rx="8" fill="#e8d7af" stroke="#17120d" stroke-width="8"/>
+  <text x="970" y="208" font-family="Arial Black, sans-serif" font-size="24" fill="#21180e">STRATEGY</text>
+  <path d="M966 230h142M966 265h142M966 300h142M1000 220v115m40-115v115m38-115v115" stroke="#5c4730" stroke-width="3"/>
+  <text x="1060" y="330" font-family="Arial Black, sans-serif" font-size="48" fill="#b13a12">?</text>
+</g>
+
+<!-- flames -->
+<g fill="url(#fire)" stroke="#7d2200" stroke-width="4">
+  <path d="M0 630V405c35 42 20 92 58 112-2-70 50-108 62-175 42 70 15 105 55 146 13-96 76-125 95-215 50 95 10 150 70 207 12-71 48-98 67-148 40 72 18 115 58 162V630z"/>
+  <path d="M1200 630V365c-40 45-27 95-63 120 4-88-50-132-66-205-48 84-17 132-66 182-20-74-59-108-84-170-44 77-18 120-58 173-13-53-43-83-62-127-32 62-18 111-46 154V630z"/>
+</g>
+
+<!-- desk -->
+<rect x="458" y="462" width="510" height="92" rx="10" fill="#6e3f1d" stroke="#2b190e" stroke-width="8" filter="url(#shadow)"/>
+<rect x="498" y="548" width="30" height="82" fill="#3a2416"/><rect x="900" y="548" width="30" height="82" fill="#3a2416"/>
+
+<!-- dog -->
+<g filter="url(#shadow)">
+  <ellipse cx="515" cy="435" rx="76" ry="92" fill="#d58b26" stroke="#2a190e" stroke-width="8"/>
+  <circle cx="525" cy="315" r="86" fill="#d58b26" stroke="#2a190e" stroke-width="8"/>
+  <ellipse cx="468" cy="328" rx="33" ry="72" fill="#4b2a17" transform="rotate(18 468 328)"/>
+  <ellipse cx="590" cy="327" rx="58" ry="37" fill="#e0a13f" stroke="#2a190e" stroke-width="7"/>
+  <ellipse cx="625" cy="320" rx="18" ry="13" fill="#17100b"/>
+  <circle cx="510" cy="296" r="25" fill="#fff" stroke="#2a190e" stroke-width="6"/><circle cx="517" cy="298" r="9" fill="#17100b"/>
+  <circle cx="557" cy="294" r="25" fill="#fff" stroke="#2a190e" stroke-width="6"/><circle cx="566" cy="298" r="9" fill="#17100b"/>
+  <path d="M565 348q30 24 53 1" fill="none" stroke="#2a190e" stroke-width="6" stroke-linecap="round"/>
+  <path d="M482 230q42-36 86 0l-10 35h-74z" fill="#7d4b25" stroke="#2a190e" stroke-width="7"/>
+  <ellipse cx="522" cy="232" rx="58" ry="15" fill="#7d4b25" stroke="#2a190e" stroke-width="7"/>
+</g>
+
+<!-- speech bubble -->
+<path d="M606 180h270q34 0 34 34v74q0 34-34 34H746l-44 44 8-44H606q-34 0-34-34v-74q0-34 34-34z" fill="#fff8e6" stroke="#17120d" stroke-width="8" filter="url(#shadow)"/>
+<text x="635" y="270" font-family="Arial Black, sans-serif" font-size="42" fill="#17120d">THIS IS FINE.</text>
+
+<!-- laptop -->
+<g filter="url(#shadow)">
+  <rect x="698" y="373" width="220" height="125" rx="8" fill="#252525" stroke="#111" stroke-width="7"/>
+  <rect x="715" y="388" width="186" height="92" fill="#d9d4c8"/>
+  <text x="751" y="421" font-family="Arial Black, sans-serif" font-size="21" fill="#29231c">ORG CHART</text>
+  <path d="M807 435v15m-52 0h104m-78 0v17m52-17v17" stroke="#29231c" stroke-width="4"/>
+  <rect x="742" y="466" width="52" height="22" fill="#fff" stroke="#29231c" stroke-width="3"/><rect x="820" y="466" width="52" height="22" fill="#fff" stroke="#29231c" stroke-width="3"/>
+  <text x="755" y="483" font-family="Arial Black, sans-serif" font-size="14" fill="#b13a12">???</text><text x="833" y="483" font-family="Arial Black, sans-serif" font-size="14" fill="#b13a12">???</text>
+</g>
+
+<!-- desk details -->
+<rect x="330" y="423" width="180" height="120" rx="5" fill="#e8d7af" stroke="#24180d" stroke-width="7" transform="rotate(-4 420 483)"/>
+<text x="352" y="454" font-family="Arial Black, sans-serif" font-size="18" fill="#21180e">FOCUS</text>
+<text x="352" y="481" font-family="Arial, sans-serif" font-size="17" fill="#21180e">CREATE CLARITY</text>
+<text x="352" y="506" font-family="Arial, sans-serif" font-size="17" fill="#21180e">REDUCE FRICTION</text>
+<text x="352" y="531" font-family="Arial, sans-serif" font-size="17" fill="#21180e">HELP OTHERS</text>
+<rect x="985" y="448" width="145" height="72" rx="5" fill="#eee0bd" stroke="#27180e" stroke-width="6" transform="rotate(5 1057 484)"/>
+<text x="1008" y="484" font-family="Arial Black, sans-serif" font-size="18" fill="#21180e">CHANGE</text><text x="1018" y="506" font-family="Arial Black, sans-serif" font-size="18" fill="#21180e">LOG</text>
+</svg>
