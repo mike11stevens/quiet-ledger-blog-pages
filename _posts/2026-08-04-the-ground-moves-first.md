@@ -4,8 +4,8 @@ date: 2026-08-04 19:37:00 -0400
 excerpt: "What the last six months taught me about navigating organizational change, creating clarity, and building systems that remain useful after the org chart changes again."
 redirect_from: /the-ground-moves-first/
 header:
-  image: https://i.kym-cdn.com/photos/images/newsfeed/001/401/347/312.jpg
-  teaser: https://i.kym-cdn.com/photos/images/newsfeed/001/401/347/312.jpg
+  image: /assets/images/the-ground-moves-first-header.png
+  teaser: /assets/images/the-ground-moves-first-header.png
 tags:
   - microsoft
   - career
