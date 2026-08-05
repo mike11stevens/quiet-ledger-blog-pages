@@ -174,8 +174,8 @@ For the earlier chapters of this story, see [My First Year at Microsoft](/posts/
 The familiar "This is fine" scene works because most of us recognize the temptation to normalize chaos while waiting for someone else to acknowledge it. The healthier lesson is not to sit calmly and insist that everything is fine. It is to notice the fire, help people find the exits, create enough clarity for coordinated action, and improve the wiring before the next spark.
 
 <figure class="image-figure">
-  <img src="{{ '/assets/images/the-work-begins-after-the-alarm.svg' | relative_url }}" alt="A warm comic-style office after a crisis, with teams rebuilding systems, sharing knowledge, and improving how work gets done" loading="lazy" decoding="async">
-  <figcaption>The work begins after the alarm. Calm is useful; denial is not.</figcaption>
+  <img src="{{ '/assets/images/the-ground-moves-first-okay-whats-next.jpg' | relative_url }}" alt="A warm two-panel comic showing a calm dog in a burning room asking, Okay. What's next?" loading="lazy" decoding="async">
+  <figcaption>The room may still be on fire. The next question is what we do about it.</figcaption>
 </figure>
 
 *These reflections are personal and do not represent Microsoft.*
