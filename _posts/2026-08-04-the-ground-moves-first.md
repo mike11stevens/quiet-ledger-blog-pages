@@ -4,8 +4,8 @@ date: 2026-08-04 19:37:00 -0400
 excerpt: "What the last six months taught me about navigating organizational change, creating clarity, and building systems that remain useful after the org chart changes again."
 redirect_from: /the-ground-moves-first/
 header:
-  image: /assets/images/the-ground-moves-first-this-is-fine.svg
-  teaser: /assets/images/the-ground-moves-first-this-is-fine.svg
+  image: https://i.kym-cdn.com/photos/images/newsfeed/001/401/347/312.jpg
+  teaser: https://i.kym-cdn.com/photos/images/newsfeed/001/401/347/312.jpg
 tags:
   - microsoft
   - career
@@ -20,8 +20,8 @@ tags:
 *Finding your footing while everything around you keeps changing.*
 
 <figure class="image-figure">
-  <img src="{{ '/assets/images/the-ground-moves-first-this-is-fine.svg' | relative_url }}" alt="An original cartoon of a calm dog at a desk while an office burns, surrounded by changing priorities and an uncertain org chart" loading="eager" decoding="async">
-  <figcaption>Everything may not be fine. The work is noticing what is changing, creating clarity, and helping people move through it.</figcaption>
+  <img src="https://i.kym-cdn.com/photos/images/newsfeed/001/401/347/312.jpg" alt="The original two-panel This Is Fine comic by KC Green, showing Question Hound sitting calmly in a burning room" loading="eager" decoding="async">
+  <figcaption>"This Is Fine," by KC Green: a nearly perfect shorthand for trying to remain calm while the environment changes around you.</figcaption>
 </figure>
 
 One of the more interesting things about organizational change is that it rarely feels like a single dramatic event while you are living through it. The ground usually moves first, a little at a time, and only later do you look around and realize that the landscape is different.
@@ -174,8 +174,8 @@ For the earlier chapters of this story, see [My First Year at Microsoft](/posts/
 The familiar "This is fine" scene works because most of us recognize the temptation to normalize chaos while waiting for someone else to acknowledge it. The healthier lesson is not to sit calmly and insist that everything is fine. It is to notice the fire, help people find the exits, create enough clarity for coordinated action, and improve the wiring before the next spark.
 
 <figure class="image-figure">
-  <img src="{{ '/assets/images/the-ground-moves-first-this-is-fine.svg' | relative_url }}" alt="An original This Is Fine-inspired cartoon about organizational change, showing a dog at a desk amid fire, shifting priorities, and an uncertain org chart" loading="lazy" decoding="async">
-  <figcaption>The room is not fine. Calm is still useful. Denial is not.</figcaption>
+  <img src="{{ '/assets/images/the-work-begins-after-the-alarm.svg' | relative_url }}" alt="A warm comic-style office after a crisis, with teams rebuilding systems, sharing knowledge, and improving how work gets done" loading="lazy" decoding="async">
+  <figcaption>The work begins after the alarm. Calm is useful; denial is not.</figcaption>
 </figure>
 
 *These reflections are personal and do not represent Microsoft.*
