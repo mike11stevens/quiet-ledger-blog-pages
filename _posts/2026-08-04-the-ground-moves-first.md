@@ -4,8 +4,8 @@ date: 2026-08-04 19:37:00 -0400
 excerpt: "What the last six months taught me about navigating organizational change, creating clarity, and building systems that remain useful after the org chart changes again."
 redirect_from: /the-ground-moves-first/
 header:
-  image: /assets/images/microsoft-fifteen-year-atlanta-atlantic-station.png
-  teaser: /assets/images/microsoft-fifteen-year-atlanta-atlantic-station.png
+  image: /assets/images/the-ground-moves-first-this-is-fine.svg
+  teaser: /assets/images/the-ground-moves-first-this-is-fine.svg
 tags:
   - microsoft
   - career
@@ -20,8 +20,8 @@ tags:
 *Finding your footing while everything around you keeps changing.*
 
 <figure class="image-figure">
-  <img src="{{ '/assets/images/microsoft-fifteen-year-atlanta-atlantic-station.png' | relative_url }}" alt="Mike Stevens standing beside the Microsoft sign outside Microsoft's Atlanta office at Atlantic Station" loading="eager" decoding="async">
-  <figcaption>Still here. Still learning. Still trying to understand what remains useful when the organization around the work changes.</figcaption>
+  <img src="{{ '/assets/images/the-ground-moves-first-this-is-fine.svg' | relative_url }}" alt="An original cartoon of a calm dog at a desk while an office burns, surrounded by changing priorities and an uncertain org chart" loading="eager" decoding="async">
+  <figcaption>Everything may not be fine. The work is noticing what is changing, creating clarity, and helping people move through it.</figcaption>
 </figure>
 
 One of the more interesting things about organizational change is that it rarely feels like a single dramatic event while you are living through it. The ground usually moves first, a little at a time, and only later do you look around and realize that the landscape is different.
@@ -77,11 +77,6 @@ This is not an argument against expertise. Deep expertise is essential. It is an
 Over the last several months, some of the work I have valued most has involved consolidating fragmented information, clarifying stages and ownership, improving the relationship between operational data and reporting, and reducing the number of places where people have to reconcile competing versions of reality. None of those efforts produces a dramatic launch moment. Their value appears gradually as fewer people need to ask where something lives, what a status means, or who has the authority to make the next decision.
 
 That is the strange thing about strong operational work: its success is often measured by what stops happening. Meetings become shorter. Escalations become less frequent. New teammates gain context faster. Leaders spend less time reconciling contradictory reports. The organization becomes a little easier to understand.
-
-<figure class="image-figure">
-  <img src="{{ '/assets/images/microsoft-anniversary-crystals-five-ten-fifteen.png' | relative_url }}" alt="Microsoft anniversary crystals marking five, ten, and fifteen years" loading="lazy" decoding="async">
-  <figcaption>Organizations change in chapters. Careers do too, although the milestones look much tidier in a photograph than they feel while living them.</figcaption>
-</figure>
 
 This builds on something I wrote in [Fifteen Years at Microsoft](/posts/fifteen-years-at-microsoft/): the thread connecting much of my work is no longer an individual technology or customer problem, but the human systems through which those problems get solved.
 
@@ -171,12 +166,16 @@ A few resources that influenced the thinking behind this post:
 - [*The Fearless Organization* by Amy Edmondson](https://www.hbs.edu/faculty/Pages/item.aspx?num=54851) — on creating the conditions for people to surface risk, uncertainty, and disagreement.
 - [*Turn the Ship Around!* by L. David Marquet](https://davidmarquet.com/turn-the-ship-around-book/) — a practical case for distributing control by increasing competence and clarity.
 - [WorkLife with Adam Grant: Is It Safe to Speak Up at Work?](https://www.ted.com/talks/worklife_with_adam_grant_is_it_safe_to_speak_up_at_work) — a useful podcast episode about building a culture of voice rather than silence.
-- [*Open to Work: How to Get Ahead in the Age of AI*](https://blogs.microsoft.com/blog/2026/03/31/open-to-work-how-to-get-ahead-in-the-age-of-ai/) — Ryan Roslansky and Aneesh Raman's practical framing of agency and career adaptation during the AI shift.
 
 For the earlier chapters of this story, see [My First Year at Microsoft](/posts/my-first-year-at-microsoft/), [Five Years in the Crystal](/posts/five-years-in-the-crystal-the-move-and-the-questions-that-matter-more/), [Ten Years at Microsoft](/posts/ten-years-at-microsoft/), and [Fifteen Years at Microsoft](/posts/fifteen-years-at-microsoft/).
 
 ### The inevitable meme
 
-The unofficial visual companion to this post is the familiar **"This is fine"** dog sitting calmly in a burning room, but with one important correction: navigating change is not pretending the room is fine. It is noticing the fire, helping people find the exits, and improving the wiring before the next spark.
+The familiar "This is fine" scene works because most of us recognize the temptation to normalize chaos while waiting for someone else to acknowledge it. The healthier lesson is not to sit calmly and insist that everything is fine. It is to notice the fire, help people find the exits, create enough clarity for coordinated action, and improve the wiring before the next spark.
+
+<figure class="image-figure">
+  <img src="{{ '/assets/images/the-ground-moves-first-this-is-fine.svg' | relative_url }}" alt="An original This Is Fine-inspired cartoon about organizational change, showing a dog at a desk amid fire, shifting priorities, and an uncertain org chart" loading="lazy" decoding="async">
+  <figcaption>The room is not fine. Calm is still useful. Denial is not.</figcaption>
+</figure>
 
 *These reflections are personal and do not represent Microsoft.*
