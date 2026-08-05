@@ -1,6 +1,31 @@
 <link rel="stylesheet" href="{{ '/assets/css/github-light.css' | relative_url }}">
 {% capture browser_title %}{{ site.title }}{% if page.title and page.title != site.title %} | {{ page.title }}{% endif %}{% endcapture %}
 <script>document.title = {{ browser_title | strip | jsonify }};</script>
+<style>
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 1.5rem 0;
+  overflow: hidden;
+  background: #000;
+}
+.video-wrapper iframe {
+  position: absolute;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100%;
+  border: 0;
+}
+@supports not (aspect-ratio: 16 / 9) {
+  .video-wrapper {
+    height: 0;
+    padding-bottom: 56.25%;
+  }
+}
+</style>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('img[src$="the-ground-moves-first-okay-whats-next.jpg"]').forEach(function (img) {
