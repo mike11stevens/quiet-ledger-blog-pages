@@ -1,3 +1,10 @@
 <link rel="stylesheet" href="{{ '/assets/css/github-light.css' | relative_url }}">
 {% capture browser_title %}{{ site.title }}{% if page.title and page.title != site.title %} | {{ page.title }}{% endif %}{% endcapture %}
 <script>document.title = {{ browser_title | strip | jsonify }};</script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('img[src$="the-ground-moves-first-okay-whats-next.jpg"]').forEach(function (img) {
+    img.src = "{{ '/assets/images/the-ground-moves-first-okay-whats-next.svg' | relative_url }}";
+  });
+});
+</script>
